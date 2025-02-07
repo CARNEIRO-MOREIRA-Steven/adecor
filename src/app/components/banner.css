@@ -1,0 +1,253 @@
+.container_banner{
+    position: relative;
+    height: 83vh;
+}
+.banner_image{
+ width: 100vw;
+ height: 68vh;
+ object-fit: cover;
+ filter:brightness(50%);
+}
+.container_intro_banner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 68vh;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.intro_banner{
+    width: 450px;
+}
+.banner_title{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+
+.banner_cta{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.services_button, .contact_button{
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    width: 40%;
+    color: #ffffff;
+    font-size: 20px;
+}
+.services_button{
+    background-color: #C99C64 ;
+}
+.contact_button{
+    background-color: #4791AC ;
+}
+
+
+.form_content{
+    width: 380px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_content div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_content label{
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.form_content input{
+    height: 40px;
+    background: #ffffff;
+    border: solid 1px #000000;
+    padding: 5px;
+    color: #000000;
+}
+
+.form_content textarea{
+    height: 120px;
+    background: #ffffff;
+    border: solid 1px #000000;
+    padding: 5px;
+    color: #000000;
+}
+
+.form_button{
+    height: 50px;
+    width: 320px;
+    background-color: #4791AC;
+    border: none;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.bottom_banner{
+    height: 15vh;
+    position: absolute;
+    bottom: -15vh;
+    width: 100vw;
+    background-color: #C99C64 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bottom_banner img{
+    width: 60px;
+    filter: invert();
+    height: 60px;
+}
+.bottom_banner li{
+    list-style: none;
+    font-size: 25px;
+    gap: 15px;
+    width: 220px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .contact_homepage span{
+        width: 15%;
+    }
+
+    .contact_subtitle{
+        text-align: center;
+    }
+
+    .contact_informations_content{
+        width: 40%;
+    }
+
+    .contact_informations_content h2{
+        font-size: 30px;
+    }
+
+    .contact_form_content{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .services_button, .contact_button{
+        height: 40px;
+        width: 60%;
+        font-size: 18px;
+    }
+    .container_banner{height: 86vh;}
+    .banner_title{
+        margin: 15px;
+    }
+    .container_intro_banner{
+        flex-direction: column;
+        height: 71.1vh;
+        
+    }
+    .banner_image{height: 71.1vh;}
+    .intro_banner{
+        text-align: center;
+        width: 100%;
+    }
+    .banner_cta{
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    }
+    .contact_title, .contact_subtitle{
+        text-align: center;
+    }
+    .contact_title{
+        gap: 2%;
+    }
+    .contact_subtitle{
+        font-size: 22px;
+    }
+    .contact_homepage span{
+        width: 10%;
+    }
+    .contact_informations_container{
+        flex-direction: column;
+        width: 85%;
+        gap: 5px;
+        height: 75%;
+        justify-content: space-around;
+    }
+    .contact_informations_content, .contact_form_content{
+        width: 100%;
+        gap: 0;
+    }
+    .contact_informations_content{
+        height: 30%;
+    }
+    .contact_informations_content h2{
+        font-size: 17px;
+    }
+    .contact_container_title{
+        height: 18%;
+    }
+    .form_content{
+        width: 85%;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        gap:0 25px ;
+    }
+    .email, .name{
+        width: 45% !important;
+    }
+    .form_content label{
+        font-size: 17px;
+    }
+    .form_content textarea{
+        height: 80px;
+    }
+    .contact_homepage{
+        height: 120vh;
+    }
+    .form_content input{
+        height: 30px;
+    }
+    .contact_homepage_container{
+        justify-content: center;
+    }
+    .form_button{
+        height: 40px;
+        width: auto;
+        font-size: 20px;
+    }
+    .bottom_banner{
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+    .bottom_banner li {
+        font-size: 17px;
+        width: 140px;
+        gap: 5px;
+    }
+    .bottom_banner img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+  }
