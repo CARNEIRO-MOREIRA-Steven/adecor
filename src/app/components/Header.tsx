@@ -49,10 +49,19 @@ const Header = () => {
     <header>
       <nav className="desktop-nav">
         <img className="logo-header" src="./logo.jpg" alt="Logo"/>
+        <aside className='nav-links'>
         <Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link>
         <Link href='/#tatoueuse' className={activePath === '#prestations' ? 'active' : ''}onClick={closeMenu}>Nos prestations et réalisations</Link>     
          {/* <Link href='/faq' className={activePath === '/faq' ? 'active' : ''}onClick={closeMenu}>FAQ</Link> */}
         <Link href='/#contact' className={activePath === '#contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
+        </aside>
+        <aside className='contact_container_header'>
+        <img className='icon_facebook' src='facebook-brands-solid.svg'></img>
+        <aside className='contact_content_header'>
+        <img src='envelope-regular.svg'></img>
+        <img src='phone-solid.svg'></img>
+        </aside>
+        </aside>
       </nav>
       <div className="mobile-menu">
       <Link className='logo_link_header' href="/">

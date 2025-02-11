@@ -4,7 +4,7 @@
 }
 .banner_image{
  width: 100vw;
- height: 68vh;
+ height: 72vh;
  object-fit: cover;
  filter:brightness(50%);
 }
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
-    height: 68vh;
+    height: 72vh;
     align-items: center;
     position: absolute;
     top: 0;
@@ -24,7 +24,6 @@
     text-transform: uppercase;
     margin: 20px 0;
 }
-
 
 .banner_cta{
     display: flex;
@@ -45,7 +44,6 @@
 .contact_button{
     background-color: #4791AC ;
 }
-
 
 .form_content{
     width: 380px;
@@ -98,9 +96,9 @@
 }
 
 .bottom_banner{
-    height: 15vh;
+    height: 16vh;
     position: absolute;
-    bottom: -15vh;
+    bottom: -16vh;
     width: 100vw;
     background-color: #C99C64 ;
     display: flex;
@@ -155,22 +153,25 @@
         width: 60%;
         font-size: 18px;
     }
-    .container_banner{height: 86vh;}
+    .container_banner{
+        height: 86vh;}
     .banner_title{
         margin: 15px;
     }
     .container_intro_banner{
         flex-direction: column;
-        height: 71.1vh;
-        
+        height: 86.1vh;
     }
-    .banner_image{height: 71.1vh;}
+    .banner_subtitle{
+        font-weight: 600;
+    }
+    .banner_image{
+        height: 86.1vh;}
     .intro_banner{
         text-align: center;
         width: 100%;
     }
     .banner_cta{
-    flex-direction: column;
     gap: 5px;
     align-items: center;
     }
@@ -210,6 +211,7 @@
         width: 85%;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: flex-end;
         flex-direction: row;
         gap:0 25px ;
     }
@@ -218,6 +220,7 @@
     }
     .form_content label{
         font-size: 17px;
+        font-weight: 500;
     }
     .form_content textarea{
         height: 80px;
@@ -237,6 +240,7 @@
         font-size: 20px;
     }
     .bottom_banner{
+        position: absolute;
         flex-wrap: wrap;
         justify-content: space-evenly
     }
