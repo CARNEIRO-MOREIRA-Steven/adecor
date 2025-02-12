@@ -1,0 +1,37 @@
+#reviews{
+    height: 60vh;
+    margin-top: 16vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  .EmbedRoot__Root-sc-1c4b4pg-0 .fZBTme .es-embed-root{
+    max-width: 80vw !important;
+  }
+  div.eapps-widget, .elfsight-app-264c4d90-c4e4-4e4d-b756-0d7ab9ab914b{
+    overflow: hidden;
+    scrollbar-width: none;
+  }
+  div.eapps-widget, div.eapps-widget.eapps-widget-show-toolbar:before, .iGDhJF {
+    overflow: hidden !important;
+  }
+  div.eapps-widget-toolbar, .eapps-widget-toolbar-panel-wrapper {
+    overflow: hidden;
+    display: none !important;}
+  
+  .eapps-widget-toolbar-panel-share-block{
+    width: auto;
+  }
+@media screen and (max-width: 767px) {
+.bhIphO {
+    width: 80vw !important;
+}
+div.eapps-widget {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+}

@@ -77,6 +77,11 @@ const Header = () => {
             <li><Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link></li>
             <li><Link href='/#tatoueuse' className={activePath === '/#prestations' ? 'active' : ''}onClick={closeMenu}>Nos prestations et réalisations</Link></li>
             <li><Link href='/#contact' className={activePath === '/#contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
+            <aside className='contact_container_header'>
+        <img className='icon_facebook' src='facebook-brands-solid.svg'></img>
+        <img src='envelope-regular.svg'></img>
+        <img src='phone-solid.svg'></img>
+        </aside>
           </ul>
         </div>
       </div>

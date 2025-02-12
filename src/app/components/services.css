@@ -1,9 +1,6 @@
 .container_services{
     height: auto;
-    padding:0 10vh;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    padding:0 10vw 50px 10vw;
 }
 .title_services{
     font-weight: 800;
@@ -29,16 +26,17 @@
     column-count: 3;
 }
 .card{
-    background-color: #000000bb;
-    height: 15vh;
+    height: 25vh;
     border-radius: 25px;
     width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: center;
-    background-color: #000000cc ;
+    justify-content: flex-end;
+    background-size: cover; /* Couvre toute la carte */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .card_icon{
     height: 40%;
@@ -46,31 +44,70 @@
 .card_title{
     margin: 15px 0 0 0;
     font-size: 20px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 25px 25px;
 }
-.card_1 .card_title{
+.card_1{
+    background-image: url('../../../public/peinture_intérieur.jpg');
+}
+.card_2{
+    background-image: url('../../../public/isolation.jpg');
+}
+.card_3{
+    background-image: url('../../../public/decoration.jpg');
+}
+.card_4{
+    background-image: url('../../../public/peinture_exterieur.jpg');
+}
+.card_5{
+    background-image: url('../../../public/sol.jpg');
+}
+.card_6{
+    background-image: url('../../../public/amenagement.jpg');
+}
+.card_1 .card_title, .card_3 .card_title, .card_5 .card_title{
     color: #BFAB67;
+    width: 100%;
+    height: 40%;
+    background-color: #00000083;
 }
-.card_2 .card_title{
+.card_2 .card_title, .card_4 .card_title, .card_6 .card_title{
     color: #C1D9E2;
+    width: 100%;
+    height: 40%;
+    background-color: #00000083;
 }
-.card_3 .card_title{
-    color: #D6BB9B;
-}
-.card_4 .card_title{
-    color: #C1D9E2;
-}
-.card_5 .card_title{
-    color: #BFAB67;
-}
-.card_6 .card_title{
-    color: #C1D9E2;
-}
+
 @media screen and (min-width: 1441px) {
     .container_services{
-        padding:0 15vw;
+        padding:0 15vw 10vh 15vw;
     }
     .services_cards{
     width: 70vw;
     justify-content: space-around;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container_services {
+        padding:0 2vw 50px 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services_cards{
+        width: 95vw;
+        gap: 25px;
+        padding: 10px 0;
+    }
+    .card{
+        width: 45%;
+        height: 20vh;
+    }
+    .card_title{
+        font-size: 17px;
+        text-align: center;
     }
 }

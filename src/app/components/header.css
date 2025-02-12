@@ -128,7 +128,7 @@ header {
   #menu {
     position: fixed; 
     top: 0;
-    left: -100%;
+    left: 0;
     width: 100vw; 
     height: 100vh; 
     background-color: #ffffff; 
@@ -145,7 +145,11 @@ header {
   }
   
   #menu.open {
-    transform: translateY(0); 
+    transform: translateX(0); 
+  }
+
+  #menu.open .contact_container_header{
+    justify-content: center;
   }
   
   body.menu-open {
@@ -157,6 +161,7 @@ header {
     padding: 20px 0;
     list-style: none;
     color: #000000;
+    text-align: center;
   }
   
   #menu li a {

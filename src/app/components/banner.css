@@ -150,11 +150,12 @@
 @media screen and (max-width: 767px) {
     .services_button, .contact_button{
         height: 40px;
-        width: 60%;
+        width: 45%;
         font-size: 18px;
     }
     .container_banner{
-        height: 86vh;}
+        height: 86vh;
+    }
     .banner_title{
         margin: 15px;
     }
@@ -166,14 +167,17 @@
         font-weight: 600;
     }
     .banner_image{
-        height: 86.1vh;}
+        height: 86.1vh;
+    }
     .intro_banner{
         text-align: center;
-        width: 100%;
+        width: 95%;
     }
     .banner_cta{
     gap: 5px;
     align-items: center;
+    justify-content: center;
+    gap: 15px;
     }
     .contact_title, .contact_subtitle{
         text-align: center;
@@ -242,7 +246,9 @@
     .bottom_banner{
         position: absolute;
         flex-wrap: wrap;
-        justify-content: space-evenly
+        justify-content: space-evenly;
+        width: 90%;
+        padding: 0 5%;
     }
     .bottom_banner li {
         font-size: 17px;

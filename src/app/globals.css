@@ -23,22 +23,6 @@ h2{
 h3{
   font-size: 30px;
 }
-#reviews{
-  height: 60vh;
-  padding: 50px 0 0 0;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-}
-div.eapps-widget, .elfsight-app-264c4d90-c4e4-4e4d-b756-0d7ab9ab914b{
-  overflow: hidden;
-  scrollbar-width: none;
-}
-.eapps-widget-toolbar-panel-share-block{
-  width: auto;
-}
 
 @media screen and (max-width: 767px) {
   h1{
@@ -46,6 +30,9 @@ div.eapps-widget, .elfsight-app-264c4d90-c4e4-4e4d-b756-0d7ab9ab914b{
   }
   h2{
     font-size: 27px;
+  }
+  h3{
+    font-size: 23px;
   }
   #reviews{
     height: 72vh;
