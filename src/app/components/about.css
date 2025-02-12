@@ -92,14 +92,21 @@
     }
     .about_image{
         padding-bottom: 50px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: relative;
     }
     .image_about {
         height: 300px;
         width: 250px;
+        position: relative;
+        left: 25px;
     }
     .border_image_about {
         position: absolute;
         height: 300px;
+        left: auto;
         width: 250px;
     }
     .about_button{

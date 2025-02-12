@@ -34,4 +34,7 @@ div.eapps-widget {
     display: flex;
     justify-content: center;
 }
+#reviews{
+    height: 70vh;
+}
 }
