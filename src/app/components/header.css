@@ -228,4 +228,9 @@ header {
       position: absolute;
       left: 30px;
     }
+
+    .icon_facebook,.icon_mail, .icon_phone {
+      height: 50px;
+      width: 50px;
+    }
   }
