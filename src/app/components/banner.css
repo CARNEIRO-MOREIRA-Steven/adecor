@@ -150,7 +150,7 @@
 @media screen and (max-width: 767px) {
     .services_button, .contact_button{
         height: 40px;
-        width: 45%;
+        width: 50%;
         font-size: 18px;
     }
     .container_banner{
