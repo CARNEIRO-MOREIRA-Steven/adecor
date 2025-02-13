@@ -1,0 +1,48 @@
+.bottom_banner{
+    height: 16vh;
+    position: absolute;
+    bottom: -16vh;
+    width: 100vw;
+    background-color: #C99C64 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bottom_banner img{
+    width: 60px;
+    filter: invert();
+    height: 60px;
+}
+.bottom_banner li{
+    list-style: none;
+    font-size: 25px;
+    gap: 15px;
+    width: 220px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .bottom_banner{
+        position: absolute;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90%;
+        padding: 0 5%;
+    }
+    .bottom_banner li {
+        font-size: 17px;
+        width: 140px;
+        gap: 5px;
+    }
+    .bottom_banner img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+  }

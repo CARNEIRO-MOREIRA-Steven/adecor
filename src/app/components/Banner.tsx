@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import './banner.css'
+import BottomBanner from './BottomBanner';
 
 const Banner = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -92,12 +93,8 @@ const Banner = () => {
           <textarea id='message' name='message' value={formData.message} maxLength={1000} onChange={handleChange}></textarea>
         </div>
         <button type='submit' className='form_button'>{isSubmitting ? <>En cours...</> : "Demander un devis gratuit"}</button>
-        </form><section className='bottom_banner'>
-            <li><img src='award-solid.svg'></img> Garantie décénale</li>
-            <li><img src='euro-sign-solid.svg'></img>Devis gratuit</li>
-            <li><img src='file-signature-solid.svg'></img> Gestion de projet</li>
-            <li><img src='helmet-safety-solid.svg'></img> ouvriers qualifié</li>
-        </section>
+        </form>
+        <BottomBanner />
         </section>
         
     </section>

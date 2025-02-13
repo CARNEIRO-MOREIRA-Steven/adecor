@@ -1,0 +1,132 @@
+.container_banner_prestation{
+    position: relative;
+    height: 83vh;
+    margin-bottom: 40px;
+}
+.banner_image_prestation{
+ width: 100vw;
+ height: 72vh;
+ object-fit: cover;
+ filter:brightness(50%);
+}
+.container_intro_banner_prestation{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 72vh;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.intro_banner_prestation{
+    width: 600px;
+    padding: 0 100px 0 0;
+    text-align: end;
+}
+.banner_title_prestation{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.banner_cta_prestation{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: flex-end;
+}
+.contact_button_prestation{
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    width: 40%;
+    color: #ffffff;
+    font-size: 20px;
+}
+.contact_button_prestation{
+    background-color: #4791AC ;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .contact_homepage span{
+        width: 15%;
+    }
+
+    .contact_subtitle{
+        text-align: center;
+    }
+
+    .contact_informations_content{
+        width: 40%;
+    }
+
+    .contact_informations_content h2{
+        font-size: 30px;
+    }
+
+    .contact_form_content{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container_banner_prestation{
+        height: 55vh;
+    }
+    .contact_button_prestation{
+        height: 40px;
+        width: 50%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .container_banner_prestation_prestation{
+        height: 40vh;
+    }
+    .banner_title_prestation{
+        margin: 15px;
+    }
+    .container_intro_banner_prestation{
+        flex-direction: column;
+        justify-content: center;
+        height: 40vh;
+        width: 100vw;
+    }
+    .banner_subtitle_prestation{
+        font-weight: 600;
+    }
+    .banner_image_prestation{
+        height: 40vh;
+    }
+    .intro_banner_prestation{
+        text-align: center;
+        width: 90vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0
+    }
+    .banner_cta_prestation{
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    }
+    .bottom_banner{
+        position: absolute;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90%;
+        padding: 0 5%;
+    }
+    .bottom_banner li {
+        font-size: 17px;
+        width: 140px;
+        gap: 5px;
+    }
+    .bottom_banner img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+  }

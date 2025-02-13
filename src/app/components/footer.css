@@ -47,9 +47,14 @@ footer{
     border: none;
 }
 
+.footer_infos p {
+    color: #ffffff;
+}
+
 .footer_copyright{
     text-align: center;
     margin:25px 0 5px 0;
+    color: #ffffff;
 }
 
 .footer_logo{

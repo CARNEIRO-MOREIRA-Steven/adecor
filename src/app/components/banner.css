@@ -1,6 +1,7 @@
 .container_banner{
     position: relative;
     height: 83vh;
+    margin-bottom: 40px;
 }
 .banner_image{
  width: 100vw;
@@ -95,56 +96,8 @@
     cursor: pointer;
 }
 
-.bottom_banner{
-    height: 16vh;
-    position: absolute;
-    bottom: -16vh;
-    width: 100vw;
-    background-color: #C99C64 ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-}
-
-.bottom_banner img{
-    width: 60px;
-    filter: invert();
-    height: 60px;
-}
-.bottom_banner li{
-    list-style: none;
-    font-size: 25px;
-    gap: 15px;
-    width: 220px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .contact_homepage span{
-        width: 15%;
-    }
-
-    .contact_subtitle{
-        text-align: center;
-    }
-
-    .contact_informations_content{
-        width: 40%;
-    }
-
-    .contact_informations_content h2{
-        font-size: 30px;
-    }
-
-    .contact_form_content{
-        width: 40%;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -179,38 +132,6 @@
     justify-content: center;
     gap: 15px;
     }
-    .contact_title, .contact_subtitle{
-        text-align: center;
-    }
-    .contact_title{
-        gap: 2%;
-    }
-    .contact_subtitle{
-        font-size: 22px;
-    }
-    .contact_homepage span{
-        width: 10%;
-    }
-    .contact_informations_container{
-        flex-direction: column;
-        width: 85%;
-        gap: 5px;
-        height: 75%;
-        justify-content: space-around;
-    }
-    .contact_informations_content, .contact_form_content{
-        width: 100%;
-        gap: 0;
-    }
-    .contact_informations_content{
-        height: 30%;
-    }
-    .contact_informations_content h2{
-        font-size: 17px;
-    }
-    .contact_container_title{
-        height: 18%;
-    }
     .form_content{
         width: 85%;
         flex-wrap: wrap;
@@ -242,22 +163,5 @@
         height: 40px;
         width: auto;
         font-size: 20px;
-    }
-    .bottom_banner{
-        position: absolute;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 90%;
-        padding: 0 5%;
-    }
-    .bottom_banner li {
-        font-size: 17px;
-        width: 140px;
-        gap: 5px;
-    }
-    .bottom_banner img {
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
     }
   }

@@ -51,7 +51,7 @@ const Header = () => {
         <img className="logo-header" src="./logo.jpg" alt="Logo"/>
         <aside className='nav-links'>
         <Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link>
-        <Link href='/#tatoueuse' className={activePath === '#prestations' ? 'active' : ''}onClick={closeMenu}>Nos prestations et réalisations</Link>     
+        <Link href='/peinture-interieure' className={activePath === '/peinture-interieure' ? 'active' : ''}onClick={closeMenu}>Nos prestations et réalisations</Link>     
          {/* <Link href='/faq' className={activePath === '/faq' ? 'active' : ''}onClick={closeMenu}>FAQ</Link> */}
         <Link href='/#contact' className={activePath === '#contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
         </aside>
