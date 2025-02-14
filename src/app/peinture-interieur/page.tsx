@@ -10,8 +10,8 @@ const index = () => {
     <section>
       <Header />
       <BannerPrestation 
-      image='./chambre1.png'
-      title='Peinture extérieur'
+      image='./banner_image.jpg'
+      title='Peinture interieur'
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
         image='./chambre2.png'

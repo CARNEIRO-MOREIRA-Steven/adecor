@@ -27,9 +27,9 @@ const Services = () => {
         <section className='services_cards'>
             <aside className='card card_1'>
                 <div className='card_content'>
-                <h4 className='card_title'>Travaux de peinture intérieure</h4>
-                <button className='btn_card'><a className='link_card' href='./peinture-interieure'>
-                {isMobile ? 'Peinture intérieure' : 'Rénover mes peintures intérieures'}</a>
+                <h4 className='card_title'>Travaux de peinture intérieur</h4>
+                <button className='btn_card'><a className='link_card' href='./peinture-interieur'>
+                {isMobile ? 'Peinture intérieur' : 'Rénover mes peintures intérieures'}</a>
                 </button>
                 </div>
             </aside>

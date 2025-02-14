@@ -9,7 +9,10 @@ const index = () => {
   return (
     <section>
       <Header />
-      <BannerPrestation />
+      <BannerPrestation 
+      image='./chambre1.png'
+      title='Isolation'
+      desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
         image='./chambre2.png'
         title='A’Decor peintre décorateur basé à Noyon, dans l’Oise'
