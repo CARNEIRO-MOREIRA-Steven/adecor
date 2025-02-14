@@ -71,7 +71,8 @@
 
 @media screen and (max-width: 767px) {
     .container_banner_prestation{
-        height: 55vh;
+        height: 60vh;
+        margin-bottom: 16vh;
     }
     .contact_button_prestation{
         height: 40px;
@@ -79,28 +80,25 @@
         font-size: 18px;
         margin-bottom: 20px;
     }
-    .container_banner_prestation_prestation{
-        height: 40vh;
-    }
     .banner_title_prestation{
         margin: 15px;
     }
     .container_intro_banner_prestation{
         flex-direction: column;
         justify-content: center;
-        height: 40vh;
+        height: 60vh;
         width: 100vw;
     }
     .banner_subtitle_prestation{
         font-weight: 600;
     }
     .banner_image_prestation{
-        height: 40vh;
+        height: 60vh;
     }
     .intro_banner_prestation{
         text-align: center;
         width: 90vw;
-        height: 25vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

@@ -52,8 +52,7 @@ const Header = () => {
         <aside className='nav-links'>
         <Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link>
         <Link href='/peinture-interieure' className={activePath === '/peinture-interieure' ? 'active' : ''}onClick={closeMenu}>Nos prestations et réalisations</Link>     
-         {/* <Link href='/faq' className={activePath === '/faq' ? 'active' : ''}onClick={closeMenu}>FAQ</Link> */}
-        <Link href='/#contact' className={activePath === '#contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
+        <Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
         </aside>
         <aside className='contact_container_header'>
         <img className='icon_facebook' src='facebook-brands-solid.svg'></img>
@@ -75,8 +74,8 @@ const Header = () => {
           <span></span>
           <ul id="menu" className={isMenuOpen ? 'open' : ''}>
             <li><Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link></li>
-            <li><Link href='/#tatoueuse' className={activePath === '/#prestations' ? 'active' : ''}onClick={closeMenu}>Nos prestations et réalisations</Link></li>
-            <li><Link href='/#contact' className={activePath === '/#contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
+            <li><Link href='/peinture-interieure' className={activePath === '/peinture-interieure' ? 'active' : ''}onClick={closeMenu}>Nos prestations et réalisations</Link></li>
+            <li><Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
             <aside className='contact_container_header'>
         <img className='icon_facebook' src='facebook-brands-solid.svg'></img>
         <img className='icon_mail'src='envelope-regular.svg'></img>
