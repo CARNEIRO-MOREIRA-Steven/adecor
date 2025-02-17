@@ -11,46 +11,44 @@ const index = () => {
       <Header />
       <BannerPrestation 
       image='./chambre1.png'
-      title='Aménaagement intérieur'
+      className='inverted'
+      title='Aménagement intérieur'
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
         image='./chambre2.png'
-        title='A’Decor peintre décorateur basé à Noyon, dans l’Oise'
-        description="<p>Notre entreprise vous accompagne dans la rénovation et la mise en valeur de vos espaces intérieurs. 
-                Que vous souhaitiez moderniser vos pièces avec des couleurs tendances ou rénover l'intégralité de vos murs, nous sommes à
-                vos côtés pour donner vie à vos idées.</p><br></br>
-                <p>Spécialisés dans les peintures décoratives, nous collaborons avec des fournisseurs pour vous offrir un large choix de finitions :
-                peinture mate, satinée, brillante, ou encore texturée. Nos solutions incluent également la pose de revêtements muraux comme le
-                papier peint ou la toile de verre, pour un intérieur à votre image.</p><br></br>
-                <p>Avec une expertise éprouvée et un souci du détail, nous faisons de chaque projet une réussite, alliant esthétisme et durabilité.</p>
+        title='A’Decor, spécialiste en Aménagement intérieur basé à Noyon, dans l’Oise'
+        description="<p>Nous optimisons l'espace intérieur de votre logement pour en faire un lieu pratique et agréable. Nous vous aidons à aménager des pièces
+        fonctionnelles, avec des rangements sur mesure et un agencement qui vous ressemble.</p>
+        <p>Grâce à nos conseils en aménagement et décoration, nous transformons vos espaces pour les rendre plus accueillants, tout en
+        maximisant leur utilisation.</p>
+        <p>Créez un intérieur harmonieux et fonctionnel avec nos solutions d'aménagement sur mesure.</p>
             " />
       <PrestationDetails
-        image='./chambre1.png'
-        title='Préparation et soins des surfaces'
+        image='./amenagement_plan.jpg'
+        title='Analyse de l’espace et planification de l’aménagement'
         description={[
-          "Diagnostic des murs et identification des besoins spécifiques.",
-          "Nettoyage des surfaces : Lessivage et élimination des résidus.",
-          "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
-          "Ponçage : Uniformisation des surfaces pour une finition lisse."
+          "Évaluation de vos besoins en matière d’agencement et d’espace de rangement.",
+          "Conception de plans pour maximiser l'utilisation de chaque pièce.",
+          "Proposition de mobilier adapté à vos contraintes et à votre style de vie.",
+          "Optimisation des espaces de vie pour plus de confort et de fonctionnalité."
         ]} />
       <PrestationDetails
         className='inverted'
-        image='./chambre1.png'
-        title='Application et finitions'
+        image='./amenagement meuble.jpg'
+        title='Mise en œuvre de l’aménagement intérieur'
         description={[
-          "Application de sous-couches adaptées à chaque surface.",
-          "Peinture murale :  Couleurs modernes ou classiques selon vos envies.",
-          "Pose de revêtements muraux (papier peint, toile de verre).",
-          "Finitions :  Traitement des boiseries et des plinthes pour un résultat impeccable."
+          "Installation de meubles sur mesure, étagères, et solutions de rangement.",
+          "Agencement des espaces pour un flux harmonieux et fluide dans chaque pièce.",
+          "Création d’espaces de vie pratiques et agréables en tenant compte de vos habitudes."
         ]} />
         <PrestationDetails
         className='last'
-        image='./chambre1.png'
-        title='Expertise et qualité :'
+        image='./amenagement_fini.jpg'
+        title='Finitions et touches finales de l’aménagement'
         description={[
-          "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
-          "Choix des peintures :  Peintures écologiques, haute couvrance et résistances.",
-          "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles.",
+          "Installation des éléments décoratifs : rideaux, tapis, éclairage.",
+          "Optimisation des espaces avec des accessoires décoratifs pour une atmosphère unique.",
+          "Conseils d'entretien pour conserver l'agencement fonctionnel et esthétique à long terme."
         ]} />
       <Footer />
     </section>

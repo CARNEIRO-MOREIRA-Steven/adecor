@@ -15,42 +15,40 @@ const index = () => {
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
         image='./chambre2.png'
-        title='A’Decor peintre décorateur basé à Noyon, dans l’Oise'
-        description="<p>Notre entreprise vous accompagne dans la rénovation et la mise en valeur de vos espaces intérieurs. 
-                Que vous souhaitiez moderniser vos pièces avec des couleurs tendances ou rénover l'intégralité de vos murs, nous sommes à
-                vos côtés pour donner vie à vos idées.</p><br></br>
-                <p>Spécialisés dans les peintures décoratives, nous collaborons avec des fournisseurs pour vous offrir un large choix de finitions :
-                peinture mate, satinée, brillante, ou encore texturée. Nos solutions incluent également la pose de revêtements muraux comme le
-                papier peint ou la toile de verre, pour un intérieur à votre image.</p><br></br>
-                <p>Avec une expertise éprouvée et un souci du détail, nous faisons de chaque projet une réussite, alliant esthétisme et durabilité.</p>
+        title='A’Decor, spécialiste en Décoration intérieure basé à Noyon, dans l’Oise'
+        description="<p>Notre service de décoration intérieure vous aide à personnaliser vos espaces en fonction de vos goûts et de votre style.
+        Nous vous accompagnons dans le choix des couleurs, des matériaux, des revêtements et des accessoires pour créer un intérieur qui vous ressemble.</p>
+        <p>Nous proposons un large éventail de solutions pour aménager vos pièces de manière harmonieuse et fonctionnelle. Nous vous guidons pour optimiser
+        l’agencement de vos espaces tout en apportant une touche de modernité et d'élégance à votre intérieur.</p>
+        <p>Créez un espace à la fois pratique et esthétique grâce à nos conseils professionnels en décoration.</p>
             " />
       <PrestationDetails
-        image='./chambre1.png'
-        title='Préparation et soins des surfaces'
+        image='./decoration_plan.jpg'
+        title='Analyse et conseils en décoration intérieure'
         description={[
-          "Diagnostic des murs et identification des besoins spécifiques.",
-          "Nettoyage des surfaces : Lessivage et élimination des résidus.",
-          "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
-          "Ponçage : Uniformisation des surfaces pour une finition lisse."
+          "Étude de l’espace pour déterminer le style et l’ambiance souhaités.",
+          "Sélection des couleurs et des matériaux pour un rendu harmonieux.",
+          "Proposition d'agencement et de mobilier adaptés à chaque pièce.",
+          "Création d’une ambiance personnalisée et moderne, en fonction de vos goûts."
         ]} />
       <PrestationDetails
         className='inverted'
-        image='./chambre1.png'
-        title='Application et finitions'
+        image='./deplacement_meuble.jpg'
+        title='Mise en œuvre de la décoration intérieure'
         description={[
-          "Application de sous-couches adaptées à chaque surface.",
-          "Peinture murale :  Couleurs modernes ou classiques selon vos envies.",
-          "Pose de revêtements muraux (papier peint, toile de verre).",
-          "Finitions :  Traitement des boiseries et des plinthes pour un résultat impeccable."
+          "Peinture décorative, application de papiers peints ou toiles de verre.",
+          "Pose de revêtements muraux et de sols pour sublimer votre intérieur.",
+          "Aménagement et agencement des espaces pour une fonctionnalité optimale.",
+          "Installation de luminaires et accessoires décoratifs pour compléter l’atmosphère."
         ]} />
         <PrestationDetails
         className='last'
-        image='./chambre1.png'
-        title='Expertise et qualité :'
+        image='./decoration_finition.jpg'
+        title='Finitions et touches finales en décoration'
         description={[
-          "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
-          "Choix des peintures :  Peintures écologiques, haute couvrance et résistances.",
-          "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles.",
+          "Application de finitions minutieuses pour un rendu impeccable.",
+          "Aménagement des espaces avec des éléments décoratifs uniques (rideaux, tableaux, plantes).",
+          "Conseils en entretien pour conserver votre décoration en parfait état sur le long terme."
         ]} />
       <Footer />
     </section>

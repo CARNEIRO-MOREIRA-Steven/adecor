@@ -1,16 +1,17 @@
 .about_prestation_container{
-    width: 90vw;
-    height: 55vh;
-    padding:0 0 50px 10vw;
+    width: 100vw;
+    height: 85vh;
+    padding: 0;
     display: flex;
     justify-content: space-between;
 }
 
 .about_prestation_description{
-    width: 50%;
+    width: 45%;
+    padding: 2.5% 2.5% 0 2.5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: center
 }
 
 .about_prestation_description h4{
@@ -23,28 +24,25 @@
     font-size: 19px;
     font-weight: 600;
     color: #000000;
-    margin: 5px;
+    margin:25px 5px;
 }
 .about_prestation_description h4, p{
     color: #000000;
 }
 
 .about_prestation_image{
-    width: 40%;
-    height: 55vh;
+    width: 50%;
+    height: 100%;
     object-fit: cover;
     filter :brightness(0.7);
 }
 
 @media screen and (min-width: 1400px) {
-    .about_prestation_description{
-        width: 60%;
-    }
     .about_prestation_image{
-        width: 30%;
+        height: 100%;
     }
     .about_prestation_description p {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 500;
     }
 }

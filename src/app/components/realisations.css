@@ -1,5 +1,5 @@
 .container_realisations {
-    height: 60vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

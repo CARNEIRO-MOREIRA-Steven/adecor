@@ -84,6 +84,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .card_1{
     background-image: url('../../../public/peinture_intérieur.jpg');
@@ -167,6 +168,12 @@
         color: #ffffff;
         width: 95%;
         margin: 0;
+    }
+    .card_3 .card_content , .card_3 .btn_card{
+        background-color: #4791AC;
+    }
+    .card_4 .card_content , .card_4 .btn_card{
+        background-color: #C99C64;
     }
     .btn_card{
         padding: 5px;

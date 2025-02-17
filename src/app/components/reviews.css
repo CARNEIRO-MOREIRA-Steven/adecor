@@ -1,6 +1,6 @@
 #reviews{
-    height: 60vh;
-    margin-top: 16vh;
+    height: 65vh;
+    margin-top: 25px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -36,5 +36,6 @@ div.eapps-widget {
 }
 #reviews{
     height: 75vh;
+    margin-top: 55px;
 }
 }

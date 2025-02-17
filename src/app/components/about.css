@@ -23,11 +23,11 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    gap: 150px;
+    gap: 50px;
     padding: 50px;
 }
 .about_description{
-    width: 55%;
+    width: 50%;
 }
 .about_description_title{
     color: #C99C64;
@@ -90,27 +90,33 @@
     .about_description{
         width: 100%;
     }
+    .about_description_text{
+        font-size: 18px;
+    }
     .about_image{
         padding-bottom: 50px;
         display: flex;
         width: 100%;
         justify-content: center;
         position: relative;
+        left: -10px;
     }
     .image_about {
         height: 300px;
         width: 250px;
         position: relative;
-        left: 25px;
+        left: 20px;
     }
     .border_image_about {
         position: absolute;
         height: 300px;
         left: auto;
         width: 250px;
-    }
+        top: 15px;
+        left: initial;    }
     .about_button{
-        width: 90%;
+        width: auto;
+        padding: 25px;
         font-size: 18px;
     }
 }

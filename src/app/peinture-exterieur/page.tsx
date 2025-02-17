@@ -10,47 +10,46 @@ const index = () => {
     <section>
       <Header />
       <BannerPrestation 
-      image='./chambre1.png'
+      image='./devant_maison.png'
       title='Peinture extérieur'
+      className='inverted'
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
         image='./chambre2.png'
-        title='A’Decor peintre décorateur basé à Noyon, dans l’Oise'
-        description="<p>Notre entreprise vous accompagne dans la rénovation et la mise en valeur de vos espaces intérieurs. 
-                Que vous souhaitiez moderniser vos pièces avec des couleurs tendances ou rénover l'intégralité de vos murs, nous sommes à
-                vos côtés pour donner vie à vos idées.</p><br></br>
-                <p>Spécialisés dans les peintures décoratives, nous collaborons avec des fournisseurs pour vous offrir un large choix de finitions :
-                peinture mate, satinée, brillante, ou encore texturée. Nos solutions incluent également la pose de revêtements muraux comme le
-                papier peint ou la toile de verre, pour un intérieur à votre image.</p><br></br>
-                <p>Avec une expertise éprouvée et un souci du détail, nous faisons de chaque projet une réussite, alliant esthétisme et durabilité.</p>
-            " />
+        title='A’Decor, spécialiste en Peinture extérieure basé à Noyon, dans l’Oise'
+        description="<p>Nous vous proposons des solutions de peinture extérieure pour protéger vos façades tout en améliorant l'apparence de votre maison.
+        Nous utilisons des peintures spécifiques résistantes aux intempéries pour garantir une longue durée de vie à vos surfaces extérieures.</p>
+        <p>Notre service comprend la préparation minutieuse des surfaces, l'application de peintures de qualité, et des finitions impeccables pour garantir
+        une protectionet une esthétique optimales.</p>
+        <p>Améliorez l’apparence de votre maison tout en la protégeant des agressions extérieures grâce à nos prestations de peinture extérieure.</p>"
+      />
       <PrestationDetails
-        image='./chambre1.png'
-        title='Préparation et soins des surfaces'
+        image='./preparation_mur_exterieur.jpg'
+        title='Préparation des surfaces extérieures'
         description={[
-          "Diagnostic des murs et identification des besoins spécifiques.",
-          "Nettoyage des surfaces : Lessivage et élimination des résidus.",
-          "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
-          "Ponçage : Uniformisation des surfaces pour une finition lisse."
+          "Inspection des murs extérieurs pour détecter les défauts à corriger.",
+          "Nettoyage en profondeur des surfaces avant l’application de la peinture.",
+          "Traitement des zones endommagées (réparation des fissures, traitement anti-humidité).",
+          "Application de primaires pour assurer une bonne adhérence de la peinture."
         ]} />
       <PrestationDetails
         className='inverted'
-        image='./chambre1.png'
-        title='Application et finitions'
+        image='./peinture_ext.jpg'
+        title='Application de la peinture extérieure'
         description={[
-          "Application de sous-couches adaptées à chaque surface.",
-          "Peinture murale :  Couleurs modernes ou classiques selon vos envies.",
-          "Pose de revêtements muraux (papier peint, toile de verre).",
-          "Finitions :  Traitement des boiseries et des plinthes pour un résultat impeccable."
+          "Peinture extérieure : application de produits résistants aux intempéries.",
+          "Peinture des façades, fenêtres, portes et autres éléments extérieurs.",
+          "Choix des finitions : mate, satinée ou brillante selon vos préférences.",
+          "Protection des surfaces sensibles (fenêtres, sols) contre les éclaboussures."
         ]} />
         <PrestationDetails
         className='last'
-        image='./chambre1.png'
-        title='Expertise et qualité :'
+        image='./finition_mur_ext.jpg'
+        title='Finitions et nettoyage après peinture'
         description={[
-          "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
-          "Choix des peintures :  Peintures écologiques, haute couvrance et résistances.",
-          "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles.",
+          "Finitions soignées sur les bords, les contours et les détails pour un rendu uniforme.",
+          "Application de produits de protection pour prolonger la durée de vie de la peinture.",
+          "Nettoyage des zones de travail et mise en valeur des surfaces fraîchement peintes."
         ]} />
       <Footer />
     </section>

@@ -15,42 +15,39 @@ const index = () => {
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
         image='./chambre2.png'
-        title='A’Decor peintre décorateur basé à Noyon, dans l’Oise'
-        description="<p>Notre entreprise vous accompagne dans la rénovation et la mise en valeur de vos espaces intérieurs. 
-                Que vous souhaitiez moderniser vos pièces avec des couleurs tendances ou rénover l'intégralité de vos murs, nous sommes à
-                vos côtés pour donner vie à vos idées.</p><br></br>
-                <p>Spécialisés dans les peintures décoratives, nous collaborons avec des fournisseurs pour vous offrir un large choix de finitions :
-                peinture mate, satinée, brillante, ou encore texturée. Nos solutions incluent également la pose de revêtements muraux comme le
-                papier peint ou la toile de verre, pour un intérieur à votre image.</p><br></br>
-                <p>Avec une expertise éprouvée et un souci du détail, nous faisons de chaque projet une réussite, alliant esthétisme et durabilité.</p>
-            " />
+        title='A’Decor, spécialiste en Revêtements de sols basé à Noyon, dans l’Oise'
+        description="<p>Nous vous proposons une large gamme de revêtements de sols adaptés à vos besoins : carrelage, parquet, moquette, sols PVC, etc.
+        Notre équipe vous accompagne dans le choix et la pose de revêtements qui allient esthétisme, confort et durabilité.</p>
+        <p>Nous préparons soigneusement vos sols avant de poser les revêtements, afin d’assurer une finition parfaite et une résistance optimale sur le
+        long terme.</p>
+        <p>Que vous ayez besoin de rénover ou d'aménager un nouvel espace, nous vous proposons des solutions de qualité adaptées à vos attentes.</p>" />
       <PrestationDetails
-        image='./chambre1.png'
-        title='Préparation et soins des surfaces'
+        image='./preparation_sol.jpg'
+        title='Préparation des sols pour les revêtements'
         description={[
-          "Diagnostic des murs et identification des besoins spécifiques.",
-          "Nettoyage des surfaces : Lessivage et élimination des résidus.",
-          "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
-          "Ponçage : Uniformisation des surfaces pour une finition lisse."
+          "Diagnostic de l’état des sols pour identifier les besoins en préparation.",
+          "Nettoyage, dégraissage et élimination des imperfections avant la pose.",
+          "Correction des irrégularités : ragréage, traitement des fissures.",
+          "Application de sous-couches pour assurer une meilleure adhérence des revêtements."
         ]} />
       <PrestationDetails
         className='inverted'
-        image='./chambre1.png'
-        title='Application et finitions'
+        image='./sol_pose.jpg'
+        title='Pose des revêtements de sols'
         description={[
-          "Application de sous-couches adaptées à chaque surface.",
-          "Peinture murale :  Couleurs modernes ou classiques selon vos envies.",
-          "Pose de revêtements muraux (papier peint, toile de verre).",
-          "Finitions :  Traitement des boiseries et des plinthes pour un résultat impeccable."
+          "Pose de carrelage, parquet, PVC, lino, moquette ou autres revêtements selon votre choix.",
+          "Découpe des matériaux pour un ajustement parfait aux dimensions des pièces.",
+          "Application de colle, pose de joints et traitement des bords pour un résultat net.",
+          "Réalisation de finitions soignées autour des plinthes et des murs."
         ]} />
         <PrestationDetails
         className='last'
-        image='./chambre1.png'
-        title='Expertise et qualité :'
+        image='./finition.jpg'
+        title='Finitions et entretien des sols'
         description={[
-          "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
-          "Choix des peintures :  Peintures écologiques, haute couvrance et résistances.",
-          "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles.",
+          "Vérification du bon alignement et de la solidité des revêtements posés.",
+          "Application de produits d'entretien pour préserver la beauté et la longévité des sols.",
+          "Conseils d’entretien adaptés à chaque type de revêtement choisi."
         ]} />
       <Footer />
     </section>
