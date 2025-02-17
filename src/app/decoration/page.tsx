@@ -12,6 +12,7 @@ const index = () => {
       <BannerPrestation 
       image='./chambre1.png'
       title='Décoration'
+      className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
         image='./chambre2.png'
