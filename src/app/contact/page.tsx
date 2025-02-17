@@ -8,7 +8,11 @@ const index = () => {
   return (
     <section>
       <Header />
-      <BannerPrestation />
+      <BannerPrestation 
+      image='./chambre1.png'
+      title='Contact'
+      className=''
+      desciption='Contactez nous pour échanger sur votre projet' />
       <Footer />
     </section>
   )
