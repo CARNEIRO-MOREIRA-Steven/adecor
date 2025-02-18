@@ -4,18 +4,19 @@ import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationDetails from '../components/Prestations/PrestationDetails'
+import PrestationRealisations from '../components/Prestations/PrestationRealisations'
 
 const index = () => {
   return (
     <section>
       <Header />
       <BannerPrestation 
-      image='./chambre1.png'
+      image='./decor.jpg'
       title='Décoration'
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
-        image='./chambre2.png'
+        image='./decor.jpg'
         title='A’Decor, spécialiste en Décoration intérieure basé à Noyon, dans l’Oise'
         description="<p>Notre service de décoration intérieure vous aide à personnaliser vos espaces en fonction de vos goûts et de votre style.
         Nous vous accompagnons dans le choix des couleurs, des matériaux, des revêtements et des accessoires pour créer un intérieur qui vous ressemble.</p>
@@ -43,14 +44,19 @@ const index = () => {
           "Installation de luminaires et accessoires décoratifs pour compléter l’atmosphère."
         ]} />
         <PrestationDetails
-        className='last'
         image='./decoration_finition.jpg'
+        className='last'
         title='Finitions et touches finales en décoration'
         description={[
           "Application de finitions minutieuses pour un rendu impeccable.",
           "Aménagement des espaces avec des éléments décoratifs uniques (rideaux, tableaux, plantes).",
           "Conseils en entretien pour conserver votre décoration en parfait état sur le long terme."
         ]} />
+        <PrestationRealisations 
+        image='./toilette.png' 
+        image2='./interieur1.jpg'
+        image3='./decor.jpg'
+        />
       <Footer />
     </section>
   )

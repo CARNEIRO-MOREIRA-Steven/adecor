@@ -32,12 +32,12 @@
         position: absolute;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        width: 90%;
-        padding: 0 5%;
+        width: 95%;
+        padding: 0 2.5%;
     }
     .bottom_banner li {
         font-size: 17px;
-        width: 140px;
+        width: 145px;
         gap: 5px;
     }
     .bottom_banner img {

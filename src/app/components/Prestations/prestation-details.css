@@ -52,6 +52,12 @@
     width: 90%;
 }
 
+@media screen and (max-width: 1200px) {
+    .prestation-container{
+        height: 55vh;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .prestation-container, .prestation-container.inverted{
         flex-direction: column-reverse;

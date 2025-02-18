@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationDetails from '../components/Prestations/PrestationDetails'
+import PrestationRealisations from '../components/Prestations/PrestationRealisations'
 
 const index = () => {
   return (
@@ -42,14 +43,19 @@ const index = () => {
           "Réalisation de finitions soignées autour des plinthes et des murs."
         ]} />
         <PrestationDetails
-        className='last'
         image='./finition.jpg'
+        className='last'
         title='Finitions et entretien des sols'
         description={[
           "Vérification du bon alignement et de la solidité des revêtements posés.",
           "Application de produits d'entretien pour préserver la beauté et la longévité des sols.",
           "Conseils d’entretien adaptés à chaque type de revêtement choisi."
         ]} />
+        <PrestationRealisations 
+        image='./toilette.jpeg' 
+        image2='./interieur1.jpg'
+        image3='./interieur3.jpg'
+        />
       <Footer />
     </section>
   )

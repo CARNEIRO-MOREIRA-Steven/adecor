@@ -123,21 +123,4 @@
     justify-content: center;
     gap: 15px;
     }
-    .bottom_banner{
-        position: absolute;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 90%;
-        padding: 0 5%;
-    }
-    .bottom_banner li {
-        font-size: 17px;
-        width: 140px;
-        gap: 5px;
-    }
-    .bottom_banner img {
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
-    }
   }

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationDetails from '../components/Prestations/PrestationDetails'
+import PrestationRealisations from '../components/Prestations/PrestationRealisations'
 
 const index = () => {
   return (
@@ -52,6 +53,11 @@ const index = () => {
           "Choix des peintures :  Peintures écologiques, haute couvrance et résistances.",
           "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles.",
         ]} />
+        <PrestationRealisations 
+        image='./peinture2.png' 
+        image2='./toilette.png'
+        image3='./interieur1.jpg'
+        />
       <Footer />
     </section>
   )

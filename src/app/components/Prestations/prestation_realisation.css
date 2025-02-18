@@ -1,0 +1,33 @@
+.realisations_container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 0;
+    background-color: #c99c64;
+}
+.realisation_image{
+    height: 50vh;
+    width: 33.33vw;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .realisations_container{
+        height: 60vh;
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: center;
+        padding: 25px 0;
+    }
+    .realisation_image{
+        width: 50vw;
+        height: 30vh;
+    }
+
+    .realisation_image.last{
+        width: 100vw;
+    }
+}

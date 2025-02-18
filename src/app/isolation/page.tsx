@@ -4,18 +4,19 @@ import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationDetails from '../components/Prestations/PrestationDetails'
+import PrestationRealisations from '../components/Prestations/PrestationRealisations'
 
 const index = () => {
   return (
     <section>
       <Header />
       <BannerPrestation 
-      image='./chambre1.png'
+      image='./interieur3.jpg'
       title='Isolation'
       className='inverted'
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
-        image='./chambre2.png'
+        image='./isolation1.jpg'
         title='A’Decor spécialiste en Isolation thermique et acoustique basé à Noyon, dans l’Oise'
         description="<p>Nous vous aidons à améliorer l'efficacité énergétique de votre habitat en offrant des solutions d'isolation thermique et acoustique.
         Que ce soit pour votre toit, vos murs ou vos sols, nos techniques modernes permettent de réduire la consommation d'énergie tout en optimisant le confort
@@ -52,6 +53,11 @@ const index = () => {
           "Garantie de durabilité avec des matériaux haute performance et écologiques.",
           "Évaluation post-travaux pour vérifier l'efficacité et la réduction des déperditions thermiques."
         ]} />
+        <PrestationRealisations 
+        image='./avant_isolation.png' 
+        image2='./isolation1.jpg'
+        image3='./isolation2.jpg'
+        />
       <Footer />
     </section>
   )
