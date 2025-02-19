@@ -71,10 +71,10 @@ const Header = () => {
         <Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
         </aside>
         <aside className='contact_container_header'>
-        <img className='icon_facebook' src='facebook-brands-solid.svg'></img>
+        <img className='icon_facebook' alt='icon_facebook' src='facebook-brands-solid.svg'></img>
         <aside className='contact_content_header'>
-        <img src='envelope-regular.svg'></img>
-        <img src='phone-solid.svg'></img>
+        <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>
+        <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
         </aside>
         </aside>
       </nav>
