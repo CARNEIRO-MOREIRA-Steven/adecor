@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 100px 0;
     background-color: #c99c64;
 }
 .realisation_image{

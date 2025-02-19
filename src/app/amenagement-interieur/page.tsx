@@ -3,9 +3,37 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
-import PrestationDetails from '../components/Prestations/PrestationDetails'
+import PrestationDetailsCarousel from '../components/Prestations/PrestationDetailsCarousel'
 
 const index = () => {
+  const prestations = [
+        {
+        image:'./amenagement_plan.jpg',
+        title:'Analyse de l’espace et planification de l’aménagement',
+        description:[
+          "Évaluation de vos besoins en matière d’agencement et d’espace de rangement.",
+          "Conception de plans pour maximiser l'utilisation de chaque pièce.",
+          "Proposition de mobilier adapté à vos contraintes et à votre style de vie.",
+          "Optimisation des espaces de vie pour plus de confort et de fonctionnalité."
+        ]},
+        {
+        className:'inverted',
+        image:'./amenagement meuble.jpg',
+        title:'Mise en œuvre de l’aménagement intérieur',
+        description:[
+          "Installation de meubles sur mesure, étagères, et solutions de rangement.",
+          "Agencement des espaces pour un flux harmonieux et fluide dans chaque pièce.",
+          "Création d’espaces de vie pratiques et agréables en tenant compte de vos habitudes."
+        ]},
+        {
+        image:'./amenagement_fini.jpg',
+        title:'Finitions et touches finales de l’aménagement',
+        description:[
+          "Installation des éléments décoratifs : rideaux, tapis, éclairage.",
+          "Optimisation des espaces avec des accessoires décoratifs pour une atmosphère unique.",
+          "Conseils d'entretien pour conserver l'agencement fonctionnel et esthétique à long terme."
+        ]}
+  ]
   return (
     <section>
       <Header />
@@ -23,33 +51,7 @@ const index = () => {
         maximisant leur utilisation.</p>
         <p>Créez un intérieur harmonieux et fonctionnel avec nos solutions d'aménagement sur mesure.</p>
             " />
-      <PrestationDetails
-        image='./amenagement_plan.jpg'
-        title='Analyse de l’espace et planification de l’aménagement'
-        description={[
-          "Évaluation de vos besoins en matière d’agencement et d’espace de rangement.",
-          "Conception de plans pour maximiser l'utilisation de chaque pièce.",
-          "Proposition de mobilier adapté à vos contraintes et à votre style de vie.",
-          "Optimisation des espaces de vie pour plus de confort et de fonctionnalité."
-        ]} />
-      <PrestationDetails
-        className='inverted'
-        image='./amenagement meuble.jpg'
-        title='Mise en œuvre de l’aménagement intérieur'
-        description={[
-          "Installation de meubles sur mesure, étagères, et solutions de rangement.",
-          "Agencement des espaces pour un flux harmonieux et fluide dans chaque pièce.",
-          "Création d’espaces de vie pratiques et agréables en tenant compte de vos habitudes."
-        ]} />
-        <PrestationDetails
-        className='last'
-        image='./amenagement_fini.jpg'
-        title='Finitions et touches finales de l’aménagement'
-        description={[
-          "Installation des éléments décoratifs : rideaux, tapis, éclairage.",
-          "Optimisation des espaces avec des accessoires décoratifs pour une atmosphère unique.",
-          "Conseils d'entretien pour conserver l'agencement fonctionnel et esthétique à long terme."
-        ]} />
+      <PrestationDetailsCarousel prestations={prestations} />
       <Footer />
     </section>
   )

@@ -3,10 +3,43 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
-import PrestationDetails from '../components/Prestations/PrestationDetails'
 import PrestationRealisations from '../components/Prestations/PrestationRealisations'
+import PrestationDetailsCarousel from '../components/Prestations/PrestationDetailsCarousel'
 
 const index = () => {
+  const prestations = [
+    {
+      image: './preparation_mur.jpg',
+      title: 'Préparation et soins des surfaces',
+      description: [
+        "Diagnostic des murs et identification des besoins spécifiques.",
+        "Nettoyage des surfaces : Lessivage et élimination des résidus.",
+        "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
+        "Ponçage : Uniformisation des surfaces pour une finition lisse."
+      ]
+    },
+    {
+      image: './peinture_mur.jpg',
+      title: 'Application et finitions',
+      className :'inverted',
+      description: [
+        "Application de sous-couches adaptées à chaque surface.",
+        "Peinture murale : Couleurs modernes ou classiques selon vos envies.",
+        "Pose de revêtements muraux (papier peint, toile de verre).",
+        "Finitions : Traitement des boiseries et des plinthes pour un résultat impeccable."
+      ]
+    },
+    {
+      image: './choix_peinture.jpg',
+      title: 'Expertise et qualité',
+      description: [
+        "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
+        "Choix des peintures : Peintures écologiques, haute couvrance et résistances.",
+        "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles."
+      ]
+    }
+  ];
+
   return (
     <section>
       <Header />
@@ -25,34 +58,7 @@ const index = () => {
         <p>Avec une expertise éprouvée et un souci du détail, nous faisons de chaque projet une réussite, alliant esthétisme et durabilité. Confiez-nous vos travaux
         de peinture et profitez d'un intérieur à la fois élégant et fonctionnel.</p>
             " />
-      <PrestationDetails
-        image='./preparation_mur.jpg'
-        title='Préparation et soins des surfaces'
-        description={[
-          "Diagnostic des murs et identification des besoins spécifiques.",
-          "Nettoyage des surfaces : Lessivage et élimination des résidus.",
-          "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
-          "Ponçage : Uniformisation des surfaces pour une finition lisse."
-        ]} />
-      <PrestationDetails
-        className='inverted'
-        image='./peinture_mur.jpg'
-        title='Application et finitions'
-        description={[
-          "Application de sous-couches adaptées à chaque surface.",
-          "Peinture murale :  Couleurs modernes ou classiques selon vos envies.",
-          "Pose de revêtements muraux (papier peint, toile de verre).",
-          "Finitions :  Traitement des boiseries et des plinthes pour un résultat impeccable."
-        ]} />
-        <PrestationDetails
-        className='last'
-        image='./choix_peinture.jpg'
-        title='Expertise et qualité :'
-        description={[
-          "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
-          "Choix des peintures :  Peintures écologiques, haute couvrance et résistances.",
-          "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles.",
-        ]} />
+       <PrestationDetailsCarousel prestations={prestations} />
         <PrestationRealisations 
         image='./peinture2.png' 
         image2='./toilette.png'
