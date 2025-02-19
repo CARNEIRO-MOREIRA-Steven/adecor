@@ -10,6 +10,17 @@
     flex-direction: row;
 }
 
+.list_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 0 50px;
+    margin: 0;
+    height: 90%;
+    justify-content: space-around;
+}
+
 .bottom_banner img{
     width: 60px;
     filter: invert();
@@ -34,6 +45,10 @@
         justify-content: space-evenly;
         width: 95%;
         padding: 0 2.5%;
+    }
+    .list_container{
+        width: 100%;
+        padding: 0;
     }
     .bottom_banner li {
         font-size: 17px;

@@ -121,7 +121,7 @@
     }
     .banner_image{
         height: 100%;
-        width: 767px;
+        width: 100vw;
     }
     .intro_banner{
         text-align: center;

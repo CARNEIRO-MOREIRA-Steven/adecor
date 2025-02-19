@@ -16,7 +16,7 @@ const About = () => {
             Faites appel à nos services pour des résultats professionnels et durables, où que vous soyez dans la région.</p>
         </section>
         <section className='about_image'>
-        <img className='image_about' src='toilette.png'></img>
+        <img className='image_about' src='toilette.png' alt='image realisation toilette'></img>
         <aside className='border_image_about'></aside>   
         </section>
         </section>
