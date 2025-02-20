@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationRealisations from '../components/Prestations/PrestationRealisations'
-import PrestationDetailsCarousel from '../components/Prestations/PrestationDetailsCarousel'
+import PrestationDetails from '../components/Prestations/PrestationDetails'
 
 const index = () => {
   const prestations = [
@@ -56,7 +56,34 @@ const index = () => {
         une protectionet une esthétique optimales.</p>
         <p>Améliorez l’apparence de votre maison tout en la protégeant des agressions extérieures grâce à nos prestations de peinture extérieure.</p>"
       />
-       <PrestationDetailsCarousel prestations={prestations} />
+       <PrestationDetails
+        image='./chambre1.png'
+        title='Préparation et soins des surfaces'
+        description={[
+          "Diagnostic des murs et identification des besoins spécifiques.",
+          "Nettoyage des surfaces : Lessivage et élimination des résidus.",
+          "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
+          "Ponçage : Uniformisation des surfaces pour une finition lisse."
+        ]} />
+      <PrestationDetails
+        className='inverted'
+        image='./chambre1.png'
+        title='Application et finitions'
+        description={[
+          "Application de sous-couches adaptées à chaque surface.",
+          "Peinture murale :  Couleurs modernes ou classiques selon vos envies.",
+          "Pose de revêtements muraux (papier peint, toile de verre).",
+          "Finitions :  Traitement des boiseries et des plinthes pour un résultat impeccable."
+        ]} />
+        <PrestationDetails
+        className='last'
+        image='./chambre1.png'
+        title='Expertise et qualité :'
+        description={[
+          "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
+          "Choix des peintures :  Peintures écologiques, haute couvrance et résistances.",
+          "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles.",
+        ]} />
        <PrestationRealisations 
         image='./devant_maison.png' 
         image2='./interieur1.jpg'

@@ -9,11 +9,9 @@ const Footer = () => {
             <h4 className='footer_links_title'>Nos services</h4>
             <aside className='border_title_footer'></aside>
             <a href="/peinture-interieur">Peinture intérieure</a>
-            <a href="/isolation">Isolation</a>
-            <a href="/decoration">Décoration</a>
+            <a href="/isolation">Aménagement et Isolation</a>
             <a href="/peinture-exterieur">Peinture extérieur</a>
             <a href="/revetement-de-sols">Revetement de sols</a>
-            <a href="/amenagement-interieur">Aménagement intérieur</a>
         </aside>
         <aside className='footer_infos'>
             <h4 className='footer_infos_title'>Nos informations</h4>

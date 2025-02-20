@@ -62,7 +62,7 @@
 
 .form_content{
     width: 380px;
-    padding: 20px;
+    padding: 10px 20px;
     border: 2px solid #000000;
     border-radius: 25px;
     display: flex;
@@ -77,13 +77,13 @@
 }
 
 .form_content label{
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
     padding: 5px 0;
 }
 
 .form_content input{
-    height: 40px;
+    height: 35px;
     background: #ffffff;
     border: solid 1px #000000;
     padding: 5px;
@@ -91,7 +91,7 @@
 }
 
 .form_content textarea{
-    height: 120px;
+    height: 100px;
     background: #ffffff;
     border: solid 1px #000000;
     padding: 5px;
@@ -100,13 +100,13 @@
 
 .form_button{
     height: 50px;
-    width: 320px;
+    width: 300px;
     background-color: #4791AC;
     border: none;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 22px;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor: pointer;
 }
 

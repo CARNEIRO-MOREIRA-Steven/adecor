@@ -27,13 +27,20 @@
 }
 .bottom_banner li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     gap: 15px;
-    width: 230px;
-    font-weight: 600;
+    width: auto;
+    font-weight: 500;
     text-transform: uppercase;
     display: flex;
     align-items: center;
+}
+
+@media screen and (min-width: 1024px)  and (max-width: 1300px) {
+    .bottom_banner li{
+        font-size: 20px;
+        width: 230px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -53,8 +60,9 @@
         justify-content: space-evenly;
     }
     .bottom_banner li {
-        font-size: 16px;
+        font-size: 14px;
         width: 140px;
+        font-weight: 500;
         gap: 5px;
     }
     .bottom_banner img {

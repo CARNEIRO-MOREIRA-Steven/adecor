@@ -52,22 +52,10 @@ const Header = () => {
         <img className="logo-header" src="./logo.jpg" alt="Logo"/>
         <aside className='nav-links'>
         <Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link>
-        <div className='subnav'
-        onMouseEnter={() => setIsSubMenuOpen(true)}
-        onMouseLeave={() => setIsSubMenuOpen(false)}>
-          <span className='title_subnav'>Nos prestations et réalisations</span>
-          {isSubMenuOpen && (
-          <ul className='subnav_link_container'>
-                    <li><Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieur</Link></li>
-                    <li><Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Isolation</Link></li>           
-                    <li><Link href='/decoration' className={activePath === '/decoration' ? 'active' : ''}onClick={closeMenu}>Décoration</Link></li>           
-                    <li><Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieur</Link></li>           
-                    <li><Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link></li>        
-                    <li><Link href='/amenagement-interieur' className={activePath === '/amenagement-interieur' ? 'active' : ''}onClick={closeMenu}>Aménagement intérieur</Link></li>          
-          
-          </ul>
-          )}
-        </div>     
+        <Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link>
+        <Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Aménagement et Isolation</Link>
+        <Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieur</Link>
+        <Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link>   
         <Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
         </aside>
         <aside className='contact_container_header'>
@@ -91,22 +79,11 @@ const Header = () => {
           <span></span>
           <ul id="menu" className={isMenuOpen ? 'open' : ''}>
             <li><Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link></li>
-            <div className='subnav'
-        onMouseEnter={() => setIsSubMenuOpen(true)}
-        onMouseLeave={() => setIsSubMenuOpen(false)}>
-          <span className='title_subnav'>Nos prestations et réalisations</span>
-          {isSubMenuOpen && (
-          <ul className='subnav_link_container'>
-                    <li><Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieur</Link></li>
-                    <li><Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Isolation</Link></li>           
-                    {/* <li><Link href='/decoration' className={activePath === '/decoration' ? 'active' : ''}onClick={closeMenu}>Décoration</Link></li>            */}
-                    <li><Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieur</Link></li>           
-                    <li><Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link></li>        
-                    {/* <li><Link href='/amenagement-interieur' className={activePath === '/amenagement-interieur' ? 'active' : ''}onClick={closeMenu}>Aménagement intérieur</Link></li>           */}
-          
-          </ul>
-          )}
-        </div>              <li><Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
+            <li><Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieur</Link></li>
+            <li><Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Aménagement et Isolation</Link></li>           
+            <li><Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieur</Link></li>           
+            <li><Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link></li>        
+            <li><Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
             <aside className='contact_container_header'>
         <img className='icon_facebook' alt='icon_facebook' src='facebook-brands-solid.svg'></img>
         <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>

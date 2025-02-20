@@ -16,12 +16,18 @@
 }
 .prestation-details{
     width: 50%;
-    padding: 2.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
     align-items: center;
+    background-color: #4791AC;
+}
+.prestation-container.inverted .prestation-details{
+    background-color: #C99C64;
+}
+.prestation-container.inverted .prestation-title, .prestation-container.inverted .prestation-list li{
+    color: #000000;
 }
 .prestation-details aside{
     width: 90%;

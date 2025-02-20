@@ -65,6 +65,7 @@
         width: 80%;
         object-fit: cover;
         height: 250px;
+        z-index: 10;
     }
 
     .prev, .next {

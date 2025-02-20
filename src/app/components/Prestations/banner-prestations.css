@@ -1,10 +1,10 @@
 .container_banner_prestation{
     position: relative;
-    height: 88vh;
+    height: 80vh;
 }
 .banner_image_prestation{
  width: 100vw;
- height: 72vh;
+ height: 78vh;
  object-fit: cover;
  filter:brightness(50%);
 }
@@ -23,7 +23,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100vw;
-    height: 72vh;
+    height: 70vh;
     align-items: center;
     position: absolute;
     top: 0;
