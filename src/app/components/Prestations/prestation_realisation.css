@@ -1,14 +1,14 @@
 .realisations_container{
     width: 100vw;
-    height: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: #c99c64;
+    gap: 100px;
+    justify-content: center;
+    padding: 50px 0;
 }
 .realisation_image{
-    height: 50vh;
-    width: 33.33vw;
+    height: 40vh;
+    width: 20vw;
     object-fit: cover;
 }
 
@@ -19,7 +19,7 @@
         flex-wrap: wrap;
         gap: 0;
         justify-content: center;
-        padding: 25px 0;
+        padding: 0 0;
     }
     .realisation_image{
         width: 50vw;

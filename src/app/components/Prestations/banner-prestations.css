@@ -1,10 +1,13 @@
 .container_banner_prestation{
     position: relative;
-    height: 80vh;
+    height: 40vh;
+    background-color: #C99C64;
 }
 .banner_image_prestation{
- width: 100vw;
- height: 78vh;
+ width: 50vw;
+ height: 70vh;
+ position: relative;
+ z-index: 5;
  object-fit: cover;
  filter:brightness(50%);
 }
@@ -21,24 +24,31 @@
 }
 .container_intro_banner_prestation{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100vw;
-    height: 70vh;
+    height: 40vh;
     align-items: center;
     position: absolute;
     top: 0;
 }
 .intro_banner_prestation{
-    width: 600px;
-    padding: 0 100px 0 0;
-    text-align: end;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    align-items: center;
+    gap: 35px;
+    padding: 0 2.5vw;
 }
 .banner_title_prestation{
     text-transform: uppercase;
     margin: 0;
+    color: #000000;
+}
+.banner_subtitle_prestation{
+    font-size: 30px;
+    width: 90%;
+    color: #000000;
+    text-align: center;
 }
 .banner_cta_prestation{
     display: flex;
@@ -50,12 +60,15 @@
     height: 50px;
     border: none;
     border-radius: 50px;
-    width: 40%;
+    width: 250px;
+    color: #000000;
+    background-color: #4791AC ;
     color: #ffffff;
     font-size: 20px;
 }
-.contact_button_prestation{
-    background-color: #4791AC ;
+.contact_button_prestation a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 
@@ -84,8 +97,7 @@
 
 @media screen and (max-width: 767px) {
     .container_banner_prestation{
-        height: 60vh;
-        margin-bottom: 16vh;
+        height: 55vh;
     }
     .contact_button_prestation{
         height: 40px;
@@ -99,11 +111,12 @@
     .container_intro_banner_prestation, .container_intro_banner_prestation.inverted{
         flex-direction: column;
         justify-content: center;
-        height: 60vh;
+        height: 55vh;
         width: 100vw;
     }
     .banner_subtitle_prestation{
         font-weight: 600;
+        font-size: 25px;
     }
     .banner_image_prestation{
         height: 60vh;
@@ -122,5 +135,6 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    width: 100%
     }
   }
