@@ -83,6 +83,7 @@ const Header = () => {
         <img className="logo-header" src="./logo.jpg" alt="Logo"/>
         </Link>
         <div id="menuToggle">
+        <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
         <label htmlFor="menu"></label>
           <input id='menu' name="menu" type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />
           <span></span>
@@ -98,10 +99,10 @@ const Header = () => {
           <ul className='subnav_link_container'>
                     <li><Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieur</Link></li>
                     <li><Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Isolation</Link></li>           
-                    <li><Link href='/decoration' className={activePath === '/decoration' ? 'active' : ''}onClick={closeMenu}>Décoration</Link></li>           
+                    {/* <li><Link href='/decoration' className={activePath === '/decoration' ? 'active' : ''}onClick={closeMenu}>Décoration</Link></li>            */}
                     <li><Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieur</Link></li>           
                     <li><Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link></li>        
-                    <li><Link href='/amenagement-interieur' className={activePath === '/amenagement-interieur' ? 'active' : ''}onClick={closeMenu}>Aménagement intérieur</Link></li>          
+                    {/* <li><Link href='/amenagement-interieur' className={activePath === '/amenagement-interieur' ? 'active' : ''}onClick={closeMenu}>Aménagement intérieur</Link></li>           */}
           
           </ul>
           )}
@@ -109,7 +110,6 @@ const Header = () => {
             <aside className='contact_container_header'>
         <img className='icon_facebook' alt='icon_facebook' src='facebook-brands-solid.svg'></img>
         <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>
-        <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
         </aside>
           </ul>
         </div>

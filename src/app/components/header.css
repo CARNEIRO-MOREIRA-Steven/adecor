@@ -7,8 +7,8 @@
 }
 
 .logo-header{
-    width: 100px;
-    height: 10vh;
+  width: auto;
+    height: 18vh;
     object-fit: cover;
     z-index: 10;
 }
@@ -25,8 +25,8 @@ header {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    height: 10vh;
-    border-bottom: solid 2vh #c99c64;
+    height: 19vh;
+    border-bottom: solid 1vh #c99c64;
   }
   
   header h1 {
@@ -45,11 +45,11 @@ header {
     gap: 40px;
     width: 100%;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 30px;
   }
 
   .desktop-nav a{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: #000000;
     text-decoration: none;
@@ -60,11 +60,10 @@ header {
     display: inline-block;
   }
   .title_subnav{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 
   }
-  
   .subnav-title {
     cursor: pointer;
     padding: 10px;
@@ -93,10 +92,15 @@ header {
     white-space: nowrap;
   }
 
-
   .desktop-nav .icon_facebook, .contact_content_header img{
     height: 30px;
     width: 30px;
+  }
+  .icon_phone{
+    position: fixed;
+    top: 92vh;
+    right: 2vw;
+    z-index: 999;
   }
   .contact_container_header{
     display: flex;
@@ -273,9 +277,14 @@ header {
       left: 30px;
     }
 
-    .icon_facebook,.icon_mail, .icon_phone {
+    .icon_facebook,.icon_mail{
       height: 50px;
       width: 50px;
+    }
+    .icon_phone{
+      width: 30px;
+      height: 30px;
+      top: 95.5vh;
     }
 
     .title_subnav{

@@ -8,7 +8,7 @@
     padding: 50px 0 50px 0;
 }
 .about_title{
-    color: #C99C64;
+    color: #000000;
 }
 
 .border_title_about{
@@ -29,13 +29,21 @@
 .about_description{
     width: 50%;
 }
+.about_description_entreprise{
+    display: flex;
+    width: 80vw;
+    padding: 25px 0;
+}
 .about_description_title{
     color: #C99C64;
 }
-.about_description_text{
+.about_description_text_entreprise, .about_description_text_zone{
     color: black;
     font-size: 22px;
     font-weight: 600;
+}
+.about_description_contact .about_description_text{
+    color: #000000;
 }
 .about_image{
     position: relative;
@@ -90,30 +98,52 @@
     .about_description{
         width: 100%;
     }
-    .about_description_text{
-        font-size: 18px;
+    .about_description_entreprise{
+        padding: 15px;
+        margin-top: 15px;
+        flex-direction: column;
+        width: 90vw;
     }
-    .about_image{
-        padding-bottom: 50px;
+    .about_description_entreprise .about_description_title{
+        color: #000000;
+        font-size: 20px;
+        margin: 0;
+    }
+    .about_description_text_entreprise, .about_description_text_zone, .about_description_contact .about_description_text{
+        color: #000000;
+        font-size: 16px;
+        margin: 10px 0 0 0;
+    }
+    .about_description_zone{
+        margin-top: 15px;
+        padding: 15px;
+        background-color: #C99C64;
+    }
+    .about_description_zone .about_description_title{
+        color: #000000;
+        margin: 0;
+    }
+    .about_image {
+        padding: 25px 0 0 0;
         display: flex;
         width: 100%;
         justify-content: center;
         position: relative;
-        left: -10px;
     }
     .image_about {
-        height: 300px;
-        width: 250px;
+        height: 250px;
+        width: 200px;
         position: relative;
-        left: 20px;
+        left: 10px;
     }
     .border_image_about {
         position: absolute;
-        height: 300px;
+        height: 250px;
         left: auto;
-        width: 250px;
-        top: 15px;
-        left: initial;    }
+        width: 200px;
+        top: 10px;
+        left: initial;    
+    }
     .about_button{
         width: auto;
         padding: 25px;

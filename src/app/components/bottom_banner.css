@@ -1,7 +1,7 @@
 .bottom_banner{
-    height: 16vh;
+    height: 10vh;
     position: absolute;
-    bottom: -16vh;
+    bottom: -10vh;
     width: 100vw;
     background-color: #C99C64 ;
     display: flex;
@@ -14,26 +14,24 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
-    padding: 0 50px;
+    width: 95%;
+    padding: 0 ;
     margin: 0;
     height: 90%;
     justify-content: space-around;
 }
 
 .bottom_banner img{
-    width: 60px;
-    filter: invert();
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 .bottom_banner li{
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
     gap: 15px;
     width: 230px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #ffffff;
     display: flex;
     align-items: center;
 }
@@ -42,22 +40,26 @@
     .bottom_banner{
         position: absolute;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 95%;
-        padding: 0 2.5%;
+        justify-content: center;
+        width: 100%;
+        height: 12vh;
+        bottom: -12vh;
+        padding: 0;
     }
     .list_container{
         width: 100%;
+        height: 100%;
         padding: 0;
+        justify-content: space-evenly;
     }
     .bottom_banner li {
-        font-size: 17px;
-        width: 145px;
+        font-size: 16px;
+        width: 140px;
         gap: 5px;
     }
     .bottom_banner img {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         object-fit: contain;
     }
   }

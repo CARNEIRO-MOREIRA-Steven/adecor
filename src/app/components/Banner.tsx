@@ -3,7 +3,15 @@ import React, { useState } from 'react';
 import './banner.css'
 import BottomBanner from './BottomBanner';
 
-<link rel="preload" href="banner_image.webp" as="image"/>
+
+<link rel="preload" as="image" href="banner_image.webp"
+// imagesrcset="https://mondomaine.com/images/monimage-920x414.jpg 920w, 
+// https://mondomaine.com/images/monimage-1600x720.jpg 1600w, 
+// https://mondomaine.com/images/monimage-1220x549.jpg 1220w, 
+// https://mondomaine.com/images/monimage-720x324.jpg 720w, 
+// https://mondomaine.com/images/monimage-360x162.jpg 360w"
+// imagesizes="(max-width: 920px) 100vw, 920px" 
+/>
 const Banner = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState ({
@@ -76,8 +84,8 @@ const Banner = () => {
             <h1 className='banner_title'>A'decor</h1>
             <h2 className='banner_subtitle'>Votre entreprise de rénovation d'intérieur à Noyon et ses alentours</h2>
             <aside className='banner_cta'>
-            <button type='submit' className='services_button'>Nos services</button>
-            <button type='submit' className='contact_button'>Nous contacter</button>
+            <button type='submit' className='services_button' ><a href='#services'>Nos services</a></button>
+            <button type='submit' className='contact_button'><a href='/contact'>Nous contacter</a></button>
             </aside>
         </section>
         <form className='form_content' onSubmit={handleSubmit}>
@@ -85,6 +93,10 @@ const Banner = () => {
       <label htmlFor='name'>Nom prénom</label>
       <input id='name' type='text' name='name' value={formData.name} required onChange={handleChange}></input>
     </div>
+    <div className='tel'>
+          <label htmlFor='tel'>Téléphone</label>
+          <input autoComplete="telephone" id='tel' type='tel' name='tel' value={formData.tel} required onChange={handleChange}></input>
+        </div>
     <div className='email'>
           <label htmlFor='email'>Email</label>
           <input autoComplete="email" id='email' type='email' name='email' value={formData.email} required onChange={handleChange}></input>

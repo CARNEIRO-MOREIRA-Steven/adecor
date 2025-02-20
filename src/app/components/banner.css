@@ -8,24 +8,35 @@
  height: 72vh;
  object-fit: cover;
  filter:brightness(50%);
+ /* filter: brightness(0.4);
+ background-image: url('../../../public/banner_image.webp');
+ background-position: 0%;
+ background-size: cover;
+ background-repeat: no-repeat; */
 }
 .container_intro_banner{
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
-    height: 72vh;
+    height: 70vh;
     align-items: center;
     position: absolute;
     top: 0;
 }
 .intro_banner{
     width: 450px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .banner_title{
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 0;
 }
-
+.banner_subtitle{
+    margin: 0;
+}
 .banner_cta{
     display: flex;
     flex-direction: row;
@@ -36,8 +47,11 @@
     border: none;
     border-radius: 50px;
     width: 40%;
-    color: #ffffff;
     font-size: 20px;
+}
+.services_button a, .contact_button a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .services_button{
     background-color: #C99C64 ;
@@ -107,25 +121,29 @@
         font-size: 18px;
     }
     .container_banner{
-        height: 86vh;
+        height: 75vh;
+        margin: 0;
     }
     .banner_title{
-        margin: 15px;
+        margin:0 15px;
     }
     .container_intro_banner{
         flex-direction: column;
-        height: 86.1vh;
+        height: 75vh;
     }
     .banner_subtitle{
         font-weight: 600;
+        font-size: 20px;
+        padding: 0 5px;
     }
     .banner_image{
         height: 100%;
-        width: 100vw;
+        width: 100%;
     }
     .intro_banner{
         text-align: center;
         width: 95%;
+        height: 35%;
     }
     .banner_cta{
     gap: 5px;
@@ -133,36 +151,38 @@
     justify-content: center;
     gap: 15px;
     }
+    .contact_button, .services_button{
+        font-size: 16px;
+        width: 42%;
+    }
     .form_content{
         width: 85%;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-end;
         flex-direction: row;
-        gap:0 25px ;
+        gap:0 2% ;
+        padding:15px 10px;
     }
-    .email, .name{
-        width: 45% !important;
+    .tel, .name{
+        width: 49% !important;
     }
     .form_content label{
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 500;
     }
     .form_content textarea{
-        height: 80px;
-    }
-    .contact_homepage{
-        height: 120vh;
+        height: 60px;
     }
     .form_content input{
-        height: 30px;
+        height: 25px;
     }
     .contact_homepage_container{
         justify-content: center;
     }
     .form_button{
         height: 40px;
-        width: auto;
-        font-size: 20px;
+        width: 85%;
+        font-size: 17px;
     }
   }
