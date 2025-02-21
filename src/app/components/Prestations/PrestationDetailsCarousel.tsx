@@ -10,6 +10,7 @@ interface CarouselProps {
         title: string;
         description: string[];
         className?: string;
+        subtitle : string
     }[];
 }
 
@@ -57,6 +58,7 @@ const Carousel: React.FC<CarouselProps> = ({ prestations }) => {
                     title={prestations[currentIndex].title}
                     description={prestations[currentIndex].description}
                     className={prestations[currentIndex].className}
+                    subtitle={prestations[currentIndex].subtitle}
                 />
                 <motion.button
                     className="next_projet"

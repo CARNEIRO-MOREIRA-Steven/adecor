@@ -11,6 +11,7 @@ const index = () => {
     {
     image :'./preparation_sol.jpg',
     title :'Préparation des sols pour les revêtements',
+    subtitle : '',
     description :[
       "Diagnostic de l’état des sols pour identifier les besoins en préparation.",
       "Nettoyage, dégraissage et élimination des imperfections avant la pose.",
@@ -22,6 +23,7 @@ const index = () => {
     className:'inverted',
     image:'./sol_pose.jpg',
     title:'Pose des revêtements de sols',
+    subtitle : '',
     description:[
           "Pose de carrelage, parquet, PVC, lino, moquette ou autres revêtements selon votre choix.",
           "Découpe des matériaux pour un ajustement parfait aux dimensions des pièces.",
@@ -32,6 +34,7 @@ const index = () => {
   {  
     image:'./finition.jpg',
     title:'Finitions et entretien des sols',
+    subtitle : '',
     description:[
           "Vérification du bon alignement et de la solidité des revêtements posés.",
           "Application de produits d'entretien pour préserver la beauté et la longévité des sols.",

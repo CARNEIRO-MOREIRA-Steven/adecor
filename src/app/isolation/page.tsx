@@ -11,6 +11,7 @@ const index = () => {
     {
       image :'./isolation_diag.jpg',
       title :"Diagnostic et préparation pour l'isolation",
+      subtitle : '',
       description :[
           "Évaluation thermique des surfaces pour identifier les zones à isoler.",
           "Vérification de l’état des murs, du toit et des sols pour définir les matériaux adaptés.",
@@ -22,6 +23,7 @@ const index = () => {
         className:'inverted',
         image:'./isolation_pose.jpg',
         title:'Pose de l’isolation thermique et acoustique',
+        subtitle : '',
         description:[
           "Application de matériaux isolants : laine de verre, mousse polyuréthane, ou autres solutions écologiques.",
           "Isolation des combles, murs et sols pour une performance énergétique maximale.",
@@ -32,6 +34,7 @@ const index = () => {
         {
         image:'./isolation_finition.jpg',
         title:'Expertise et performance de l’isolation',
+        subtitle : '',
         description:[
           "Isolation certifiée et conforme aux normes énergétiques en vigueur.",
           "Garantie de durabilité avec des matériaux haute performance et écologiques.",
