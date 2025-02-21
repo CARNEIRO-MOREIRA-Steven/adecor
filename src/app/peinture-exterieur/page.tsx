@@ -40,14 +40,15 @@ const index = () => {
     },
   ];
   return (
-    <section>
+    <section className='peinture_interieur_container'>
       <Header />
       <BannerPrestation 
       image='./devant_maison.png'
       title='Peinture extérieur'
-      className='inverted'
+      className='special'
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
       <AboutPrestation
+        image = 'peinture_ext.jpg'
         title='A’Decor, spécialiste en Peinture extérieure basé à Noyon, dans l’Oise'
         description="<p>Nous vous proposons des solutions de peinture extérieure pour protéger vos façades tout en améliorant l'apparence de votre maison.
         Nous utilisons des peintures spécifiques résistantes aux intempéries pour garantir une longue durée de vie à vos surfaces extérieures.</p>
@@ -57,6 +58,7 @@ const index = () => {
       />
        <PrestationDetails
         image='./chambre1.png'
+        className='special'
         title='Préparation et soins des surfaces'
         subtitle=''
         description={[
@@ -66,7 +68,7 @@ const index = () => {
           "Ponçage : Uniformisation des surfaces pour une finition lisse."
         ]} />
       <PrestationDetails
-        className='inverted'
+        className='inverted special'
         image='./chambre1.png'
         title='Application et finitions'
         subtitle=''
@@ -77,7 +79,7 @@ const index = () => {
           "Finitions :  Traitement des boiseries et des plinthes pour un résultat impeccable."
         ]} />
         <PrestationDetails
-        className='last'
+        className='last special'
         image='./chambre1.png'
         title='Expertise et qualité :'
         subtitle=''

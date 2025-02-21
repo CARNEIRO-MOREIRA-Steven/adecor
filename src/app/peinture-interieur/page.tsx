@@ -55,6 +55,8 @@ const index = () => {
         image3='./interieur1.jpg'
         />
       <AboutPrestation
+      image=''
+      className='peinture_interieur_banner'
         title='A’Decor, votre Peintre décorateur professionnel à Noyon dans l’Oise'
         description="<p>A la recherche d’un artisan peintre pour peindre l’intérieur de votre logement ou de vos locaux ? . Nos experts en peinture interviennent dans un rayon de 40 km autour de Noyon, dans l’Oise et l'Aisne disposant de toutes les compétences pour réaliser vos souhaits tels que :</p>
         <ul>

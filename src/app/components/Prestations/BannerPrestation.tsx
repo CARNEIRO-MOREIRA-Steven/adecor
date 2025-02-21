@@ -12,9 +12,9 @@ interface BannerPrestationProps {
 const BannerPrestation : React.FC<BannerPrestationProps> = ( { title, image, desciption, className}) => {
 
   return (
-    <section className='container_banner_prestation'>
-       {/* <img alt={title} className='banner_image_prestation' src={image}></img> */}
+    <section className= {`container_banner_prestation ${className || ""}`}>
         <section className= {`container_intro_banner_prestation ${className || ""}`}>
+        <img alt={title} className='banner_image_prestation' src={image}></img>
         <section className='intro_banner_prestation'>
             <h1 className='banner_title_prestation'>{title}</h1>
             <h2 className='banner_subtitle_prestation'>{desciption}</h2>

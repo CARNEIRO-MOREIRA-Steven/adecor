@@ -34,6 +34,12 @@
 .prestation-container.inverted .prestation-details{
     background-color: #C99C64;
 }
+.prestation-container.special .prestation-image{
+    width: 50vw;
+}
+.prestation-container.special .prestation-details{
+    width: 45vw;
+}
 .prestation-container.inverted .prestation-title, .prestation-container.inverted .prestation-list li{
     color: #000000;
 }
@@ -116,5 +122,8 @@
         width: 100vw;
         object-fit: cover;
         height: 40vh;
+    }
+    .prestation-container.special .prestation-image, .prestation-container.special .prestation-details{
+        width: 100vw;
     }
 }

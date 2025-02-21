@@ -10,6 +10,7 @@
  z-index: 5;
  object-fit: cover;
  filter:brightness(50%);
+ display: none;
 }
 
 .container_intro_banner_prestation.inverted{
@@ -136,5 +137,168 @@
     justify-content: center;
     gap: 15px;
     width: 100%
+    }
+  }
+
+
+
+  /* Special */
+.container_banner_prestation.special{
+    position: relative;
+    height: 70vh;
+}
+
+.container_banner_prestation.special .banner_image_prestation{
+ width: 100vw;
+ display: flex;
+ height: 70vh;
+ position: absolute;
+ z-index: 0;
+ object-fit: cover;
+ filter:brightness(50%);
+}
+
+.container_intro_banner_prestation.inverted.special{
+    flex-direction: row-reverse;
+}
+.container_intro_banner_prestation.inverted .intro_banner_prestation{
+    padding: 0 0 0 100px;
+    text-align: left;
+}
+.container_intro_banner_prestation.inverted .banner_cta_prestation{
+    justify-content: flex-start;
+}
+.container_intro_banner_prestation.special{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+.container_banner_prestation.special .intro_banner_prestation{
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    gap: 35px;
+    padding: 0 2.5vw;
+}
+.container_banner_prestation.special .banner_title_prestation{
+    text-transform: uppercase;
+    margin: 0;
+    color: #ffffff;
+}
+.container_banner_prestation.special .banner_subtitle_prestation{
+    font-size: 30px;
+    width: 90%;
+    text-align: right;
+    color: #ffffff;
+}
+.banner_cta_prestation{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: flex-end;
+}
+.contact_button_prestation{
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    width: 250px;
+    color: #000000;
+    background-color: #4791AC ;
+    color: #ffffff;
+    font-size: 20px;
+}
+.contact_button_prestation a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .contact_homepage span{
+        width: 15%;
+    }
+
+    .contact_subtitle{
+        text-align: center;
+    }
+
+    .contact_informations_content{
+        width: 40%;
+    }
+
+    .contact_informations_content h2{
+        font-size: 30px;
+    }
+
+    .contact_form_content{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container_banner_prestation.special{
+        height: 55vh;
+    }
+    .contact_button_prestation{
+        height: 40px;
+        width: 50%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .banner_title_prestation{
+        margin: 15px;
+    }
+    .container_banner_prestation.special .intro_banner_prestation{
+        align-items: center;
+    }
+    .container_banner_prestation.special .intro_banner_prestation{
+        width: 90vw;
+    }
+    .container_banner_prestation.special .banner_subtitle_prestation{
+        text-align: center;
+        font-size: 20px;
+    }
+    .container_banner_prestation.special .banner_image_prestation{
+        height: 55vh;
+    }
+    .container_intro_banner_prestation.special, .container_intro_banner_prestation.inverted{
+        flex-direction: column;
+        justify-content: center;
+        height: 55vh;
+        width: 100vw;
+    }
+    .banner_subtitle_prestation{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .banner_image_prestation{
+        height: 60vh;
+    }
+    .intro_banner_prestation, .container_intro_banner_prestation.inverted .intro_banner_prestation{
+        text-align: center;
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0
+    }
+    .banner_cta_prestation, .container_intro_banner_prestation.inverted .banner_cta_prestation{
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%
+    }
+    .container_banner_prestation.special {
+        z-index: 0;
     }
   }
