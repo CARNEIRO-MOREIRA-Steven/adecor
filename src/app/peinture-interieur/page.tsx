@@ -8,38 +8,6 @@ import PrestationDetails from '../components/Prestations/PrestationDetails'
 // import PrestationDetailsCarousel from '../components/Prestations/PrestationDetailsCarousel'
 
 const index = () => {
-  // const prestations = [
-  //   {
-  //     image: './preparation_mur.jpg',
-  //     title: 'Préparation et soins des surfaces',
-  //     description: [
-  //       "Diagnostic des murs et identification des besoins spécifiques.",
-  //       "Nettoyage des surfaces : Lessivage et élimination des résidus.",
-  //       "Préparation des supports : Enduits de dégrossissage, traitement anti-humidité, et pose de produits d'apprêt.",
-  //       "Ponçage : Uniformisation des surfaces pour une finition lisse."
-  //     ]
-  //   },
-  //   {
-  //     image: './peinture_mur.jpg',
-  //     title: 'Application et finitions',
-  //     className :'inverted',
-  //     description: [
-  //       "Application de sous-couches adaptées à chaque surface.",
-  //       "Peinture murale : Couleurs modernes ou classiques selon vos envies.",
-  //       "Pose de revêtements muraux (papier peint, toile de verre).",
-  //       "Finitions : Traitement des boiseries et des plinthes pour un résultat impeccable."
-  //     ]
-  //   },
-  //   {
-  //     image: './choix_peinture.jpg',
-  //     title: 'Expertise et qualité',
-  //     description: [
-  //       "Peinture mécanisée (airless) pour des surfaces grandes et une application uniforme.",
-  //       "Choix des peintures : Peintures écologiques, haute couvrance et résistances.",
-  //       "Une expertise validée par plusieurs années d'expérience et des certifications professionnelles."
-  //     ]
-  //   }
-  // ];
 
   return (
     <section>
@@ -50,9 +18,10 @@ const index = () => {
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
         <PrestationRealisations 
-        image='./peinture2.png' 
-        image2='./toilette.webp'
-        image3='./interieur1.jpg'
+        image='./interieur_escalier_debut.jpg' 
+        image2='./interieur_escalier_fin.jpg' 
+        image3='./interieur_poutre_debut.jpg'
+        image4='./interieur_poutre_fin.jpg'
         />
       <AboutPrestation
       image=''
@@ -68,7 +37,7 @@ const index = () => {
         <p>N'hésitez pas à prendre contact. Nous seront vous apporter des conseils fiables et répondre à toutes vos interrogations afin que vos projets prennent formes.</p>
             " />
         <PrestationDetails
-        image='./reno.jpeg'
+        image='./peinture_interieur.png'
         title="Les étapes clefs d'une réfection de votre peinture d'intérieure"
         subtitle="Chez A'DECOR, nous croyons que votre intérieur doit refléter vos gouts et vous satisfaire dans votre lieu de vie c'est pour cela que nous seront à votre écoute tout au long du projet"
         description={[

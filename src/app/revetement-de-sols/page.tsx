@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationRealisations from '../components/Prestations/PrestationRealisations'
-import PrestationDetailsCarousel from '../components/Prestations/PrestationDetailsCarousel'
+import PrestationDetails from '../components/Prestations/PrestationDetails'
 
 const index = () => {
   const prestations = [
@@ -46,24 +46,41 @@ const index = () => {
     <section>
       <Header />
       <BannerPrestation 
-      image='./chambre1.png'
+      image='./peinture2.png'
       title='Revetement de sols'
       className=''
-      desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
+      desciption='Apportez une nouvelle vie à vos espaces grâce à des revetement de sol de qualité professionnelle.' />
+        <PrestationRealisations 
+        image='./toilette.jpeg' 
+        image2='./toilette.webp'
+        image3='./chambre_sol1.png'
+        image4='chambre_sol2.png'
+        />
       <AboutPrestation
-        image='./chambre2.png'
+      image=''
+      className='peinture_interieur_banner'
         title='A’Decor, spécialiste en Revêtements de sols basé à Noyon, dans l’Oise'
         description="<p>Nous vous proposons une large gamme de revêtements de sols adaptés à vos besoins : carrelage, parquet, moquette, sols PVC, etc.
         Notre équipe vous accompagne dans le choix et la pose de revêtements qui allient esthétisme, confort et durabilité.</p>
-        <p>Nous préparons soigneusement vos sols avant de poser les revêtements, afin d’assurer une finition parfaite et une résistance optimale sur le
-        long terme.</p>
-        <p>Que vous ayez besoin de rénover ou d'aménager un nouvel espace, nous vous proposons des solutions de qualité adaptées à vos attentes.</p>" />
-        <PrestationDetailsCarousel prestations={prestations} />
-        <PrestationRealisations 
-        image='./toilette.jpeg' 
-        image2='./interieur1.jpg'
-        image3='./interieur3.jpg'
-        />
+        <p>Notre expertise en revêtements de sols comprend :
+        <ul>
+        <li>La pose de carrelage, parquet, PVC, lino, moquette ou autres revêtements selon votre choix</li>
+        <li>Le choix et la pose de sous-couches pour assurer une meilleure adhérence des revêtements</li>
+        <li>Le diagnostic de l’état des sols pour identifier les besoins en préparation</li>
+        </ul>
+        <p>N'hésitez pas à prendre contact. Nous seront vous apporter des conseils fiables et répondre à toutes vos interrogations afin que vos projets prennent formes.</p>
+            " />
+        <PrestationDetails
+        image='./reno.jpeg'
+        title="Les étapes clefs d'un revêtement de sol chez A'decor"
+        subtitle="Chez A'DECOR, nous croyons que votre intérieur doit refléter vos gouts et vous satisfaire dans votre lieu de vie c'est pour cela que nous seront à votre écoute tout au long du projet"
+        description={[
+            "Diagnostic de l’état des sols pour identifier les besoins en préparation.",
+            "Nettoyage, dégraissage et élimination des imperfections avant la pose.",
+            "Correction des irrégularités : ragréage, traitement des fissures.",
+            "Application de sous-couches pour assurer une meilleure adhérence des revêtements.",
+            "Pose de carrelage, parquet, PVC, lino, moquette ou autres revêtements selon votre choix.",
+        ]} />        
       <Footer />
     </section>
   )

@@ -4,14 +4,7 @@ import './banner.css'
 import BottomBanner from './BottomBanner';
 
 
-<link rel="preload" as="image" href="banner_image.webp"
-// imagesrcset="https://mondomaine.com/images/monimage-920x414.jpg 920w, 
-// https://mondomaine.com/images/monimage-1600x720.jpg 1600w, 
-// https://mondomaine.com/images/monimage-1220x549.jpg 1220w, 
-// https://mondomaine.com/images/monimage-720x324.jpg 720w, 
-// https://mondomaine.com/images/monimage-360x162.jpg 360w"
-// imagesizes="(max-width: 920px) 100vw, 920px" 
-/>
+<link rel="preload" as="image" href="banner_image.webp"></link>
 const Banner = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState ({
@@ -42,7 +35,7 @@ const Banner = () => {
       console.log(formData);
   
       try {
-        const response = await fetch("/api/contact", {
+        const response = await fetch("/api/contactBanner", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

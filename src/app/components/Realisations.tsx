@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./realisations.css";
 
-const images = ["devant_maison.png", "chambre1.png", "chambre2.png"];
+const images = ["devant_maison.png", "garde_corps_après.jpg", "interieur_poutre_fin.jpg"];
 
 const Realisations = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

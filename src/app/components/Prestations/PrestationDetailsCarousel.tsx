@@ -50,7 +50,7 @@ const Carousel: React.FC<CarouselProps> = ({ prestations }) => {
             </motion.button>
 
             <motion.div
-                className="prestation_container"
+                className="prestation_container carousel_inverted"
                 animate={prestationContainer}
                 initial={{ x: 0 }}>
                 <PrestationDetails

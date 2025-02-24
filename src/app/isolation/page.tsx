@@ -9,62 +9,50 @@ import PrestationRealisations from '../components/Prestations/PrestationRealisat
 const index = () => {
   const prestations = [
     {
-      image :'./isolation_diag.jpg',
+      image :'./isolation2.jpg',
       title :"Diagnostic et préparation pour l'isolation",
       subtitle : '',
       description :[
-          "Évaluation thermique des surfaces pour identifier les zones à isoler.",
-          "Vérification de l’état des murs, du toit et des sols pour définir les matériaux adaptés.",
-          "Préparation des surfaces : Nettoyage et préparation avant la pose de l’isolant.",
-          "Installation de barrières thermiques pour garantir une isolation optimale."
+          "Une évaluation thermique approfondie pour détecter les zones de déperditions énergétiques.",
+          "La vérification et l’analyse de l’état des murs, du toit et des sols pour choisir les matériaux les plus adaptés.",
+          "La préparation des surfaces avec nettoyage et traitement préalable pour assurer une adhérence optimale des isolants.",
+          "Nous vous accompagnons dans le choix des meilleurs matériaux isolants en fonction de votre budget et de vos besoins spécifiques."
       ]
     },
       {
-        className:'inverted',
-        image:'./isolation_pose.jpg',
+        className:'',
+        image:'./interieur1.jpg',
         title:'Pose de l’isolation thermique et acoustique',
         subtitle : '',
         description:[
-          "Application de matériaux isolants : laine de verre, mousse polyuréthane, ou autres solutions écologiques.",
-          "Isolation des combles, murs et sols pour une performance énergétique maximale.",
-          "Mise en place d’une isolation acoustique pour limiter les nuisances sonores entre les pièces.",
-          "Finitions et traitement des joints pour une isolation sans pont thermique."
+          "L’application de matériaux isolants adaptés : laine de verre, mousse polyuréthane, ou solutions écologiques.",
+          "L’isolation des combles, murs et sols afin d’optimiser votre consommation énergétique.",
+          "La mise en place d’une isolation acoustique performante pour limiter les nuisances sonores.",
+          "Des finitions soignées avec un traitement des joints et des ponts thermiques pour une isolation optimale."
         ]
       }, 
-        {
-        image:'./isolation_finition.jpg',
-        title:'Expertise et performance de l’isolation',
-        subtitle : '',
-        description:[
-          "Isolation certifiée et conforme aux normes énergétiques en vigueur.",
-          "Garantie de durabilité avec des matériaux haute performance et écologiques.",
-          "Évaluation post-travaux pour vérifier l'efficacité et la réduction des déperditions thermiques."
-        ]
-      }
   ]
   return (
     <section>
       <Header />
       <BannerPrestation 
       image='./interieur3.jpg'
-      title='Isolation'
-      className='inverted'
-      desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
+      title='Aménagement et Isolation'
+      className='inverted isolation'
+      desciption='Apportez une nouvelle vie à vos espaces grâce à un aménagement et une isolation efficaces.' />
       <AboutPrestation
         image='./isolation1.jpg'
         title='A’Decor spécialiste en Isolation thermique et acoustique basé à Noyon, dans l’Oise'
-        description="<p>Nous vous aidons à améliorer l'efficacité énergétique de votre habitat en offrant des solutions d'isolation thermique et acoustique.
-        Que ce soit pour votre toit, vos murs ou vos sols, nos techniques modernes permettent de réduire la consommation d'énergie tout en optimisant le confort
-        intérieur.</p>
-        <p>Nous utilisons des matériaux isolants de haute qualité et respectueux de l'environnement pour vous offrir une isolation performante et durable.
-        Grâce à une expertise pointue, nous assurons l'étanchéité de votre logement, vous permettant de réaliser des économies d'énergie substantielles.</p>
-        <p>Faites le choix de la performance et de la durabilité avec nos solutions d'isolation adaptées à vos besoins spécifiques.</p>
+        description="<p>L'isolation thermique et acoustique est un choix important pour garantir la confort et la durabilité de votre maison.</p>
+        <p>Notre entreprise est spécialisée dans l'isolation thermique et acoustique, offrant des solutions adaptées aux besoins de chacun.</p>
+        <p>Nous travaillons avec des materiaux de haute performance et ecologiques, garantissant ainsi une isolation durable et efficace.</p>
             " />
         <PrestationDetailsCarousel prestations={prestations} />
         <PrestationRealisations 
         image='./avant_isolation.png' 
-        image2='./isolation1.jpg'
-        image3='./isolation2.jpg'
+        image2='./interieur3.jpg'
+        image3='./amenagement_chambre.jpg'
+        image4='amenagement_apres.png'
         />
       <Footer />
     </section>

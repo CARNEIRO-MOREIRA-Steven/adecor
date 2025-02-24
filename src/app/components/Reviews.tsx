@@ -3,8 +3,8 @@ import './reviews.css'
 const Reviews = () => {
 <script src="https://static.elfsight.com/platform/platform.js" defer></script>
   return (
-    <div className="elfsight-app-264c4d90-c4e4-4e4d-b756-0d7ab9ab914b"  data-elfsight-app-lazy>
-      <iframe title='avis client' loading="lazy" id='reviews' src='https://264c4d90c4e44e4db7560d7ab9ab914b.elf.site'></iframe>
+    <div className="elfsight-app-71c20a87-ab55-4eeb-b1df-aaa84489fa45" data-elfsight-app-lazy>
+      <iframe title='avis client' loading="lazy" id='reviews' src='https://71c20a87ab554eebb1dfaaa84489fa45.elf.site'></iframe>
     </div>
   )
 }

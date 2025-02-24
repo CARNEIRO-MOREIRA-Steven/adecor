@@ -92,7 +92,7 @@
     }
     .about_prestation_image{
         width: 100vw;
-        height: 25vh;
+        height: 35vh;
         object-fit: cover;
     }
 }
