@@ -22,7 +22,6 @@ export default async function contactAPI(req, res) {
       from: email,
       to: user,
       replyTo: email,
-      subject: `Nouveau message de ${name}`,
       html: `
       <p> Nom: ${name} <p>
       <p> tel: ${tel} <p>

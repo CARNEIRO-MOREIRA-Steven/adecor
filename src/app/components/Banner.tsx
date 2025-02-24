@@ -11,7 +11,6 @@ const Banner = () => {
       name : "",
       email : "",
       tel : "",
-      subject : "",
       message : "",
   });
 
@@ -49,7 +48,6 @@ const Banner = () => {
           setFormData({
             name: "",
             email : "",
-            subject: "",
             tel: "",
             message: "",
           });
