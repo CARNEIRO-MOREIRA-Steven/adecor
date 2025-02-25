@@ -99,9 +99,20 @@
         font-size: 30px;
     }
 }
-@media screen and (max-width: 1023px) {
-    .prestation-details, .prestation-list{
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .prestation-container, .prestation-image {
+        height: auto;
+    }
+    .prestation-container.special .prestation-details{
+        width: 60vw;
+        padding: 50px;
+    }
+    .prestation-container.special .prestation-image{
+        width: 40vw;
+    }
+   .prestation-details, .prestation-list{
         gap: 25px;
+        padding: 0 0 0 25px ;
     }
 }
 @media screen and (max-width: 767px) {

@@ -12,6 +12,9 @@
     object-fit: cover;
     z-index: 10;
 }
+.contact_icon_facebook{
+  width: 30px;
+}
 
 .nav-links{
   display: flex;
@@ -97,15 +100,15 @@ header {
   }
   .icon_phone{
     position: fixed;
-    top: 92vh;
-    right: 2vw;
+    top: 95%;
+    right: 1%;
     z-index: 999;
   }
   .contact_container_header{
     display: flex;
     position: absolute;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     top: 14vh;
     right: 10px;
     gap: 25px;
@@ -236,21 +239,13 @@ header {
   }
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .desktop-nav{
-        gap: 25px;
-        height: 100%;
-    }
-
-    .logo-header{
-        height: 150px;
-        width: 150px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1023px) {
     .desktop-nav {
       display: none;
+    }
+
+    .contact_icon_facebook{
+      width: 40px;
     }
 
     #menu li a {
@@ -297,7 +292,6 @@ header {
     .icon_phone{
       width: 30px;
       height: 30px;
-      top: 95.5vh;
     }
 
     .title_subnav{

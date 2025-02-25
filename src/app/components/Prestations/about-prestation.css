@@ -67,6 +67,11 @@
         height: 85vh;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .about_prestation_image{
+        display: none;
+    }
+}
 @media screen and (max-width: 767px) {
     .about_prestation_container, .about_prestation_container.inverted{
         flex-direction: column;

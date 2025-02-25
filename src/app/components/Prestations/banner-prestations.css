@@ -1,6 +1,6 @@
 .container_banner_prestation{
     position: relative;
-    height: 40vh;
+    height: 30vh;
     background-color: #C99C64;
 }
 .banner_image_prestation{
@@ -11,6 +11,12 @@
  object-fit: cover;
  filter:brightness(50%);
  display: none;
+}
+.container_banner_prestation.contact, .container_intro_banner_prestation.contact{
+    height: 15vh;
+}
+.container_intro_banner_prestation.contact .banner_cta_prestation, .container_intro_banner_prestation.contact .banner_title_prestation{
+    display: none;
 }
 
 .container_intro_banner_prestation.inverted{
@@ -27,7 +33,7 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 40vh;
+    height: 30vh;
     align-items: center;
     position: absolute;
     top: 0;
@@ -37,7 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
+    gap: 15px;
     padding: 0 2.5vw;
 }
 .banner_title_prestation{
@@ -218,28 +224,29 @@
     text-decoration: none;
     color: #ffffff;
 }
-
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .contact_homepage span{
-        width: 15%;
+    .container_banner_prestation, .container_intro_banner_prestation, .intro_banner_prestation {
+        height: 30vh;
+        justify-content: center;
     }
-
-    .contact_subtitle{
-        text-align: center;
+    .container_intro_banner_prestation.special{
+        z-index: 2;
     }
-
-    .contact_informations_content{
-        width: 40%;
+    .banner_title_prestation{
+        font-size: 35px;
     }
-
-    .contact_informations_content h2{
-        font-size: 30px;
+    .banner_subtitle_prestation{
+        font-size: 25px;
     }
-
-    .contact_form_content{
-        width: 40%;
+    .container_intro_banner_prestation.inverted .intro_banner_prestation{
+        padding: 0;
+    }
+    .container_banner_prestation.contact, .container_intro_banner_prestation.contact, .intro_banner_prestation {
+        height: 15vh;
+        justify-content: center;
+    }
+    .container_banner_prestation.contact .banner_subtitle_prestation{
+        font-size: 22px;
     }
 }
 
@@ -300,5 +307,12 @@
     }
     .container_banner_prestation.special {
         z-index: 0;
+    }
+    .container_banner_prestation.contact, .container_intro_banner_prestation.contact, .intro_banner_prestation {
+        height: 20vh;
+        justify-content: center;
+    }
+    .container_banner_prestation.contact .banner_subtitle_prestation{
+        font-size: 20px;
     }
   }

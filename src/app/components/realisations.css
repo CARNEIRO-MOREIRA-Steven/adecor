@@ -37,7 +37,12 @@
     filter: brightness(100%);
     transition-duration: 0.5s;
 }
-
+@media screen and (min-width: 768px) and (max-width : 1023px){
+    .container_image_realisation {
+        flex-wrap: wrap;
+        padding: 50px 0 0 0;
+    }
+}
 @media screen and (max-width: 767px) {
     .container_realisations{
         padding: 20px 0;

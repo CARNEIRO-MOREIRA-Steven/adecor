@@ -59,10 +59,16 @@ const Header = () => {
         <Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
         </aside>
         <aside className='contact_container_header'>
-        <img className='icon_facebook' alt='icon_facebook' src='facebook-brands-solid.svg'></img>
+        <a target='_blank' className='contact_info_facebook' href="https://www.facebook.com/profile.php?id=100079740254760"> 
+          <img className="contact_icon_facebook" alt="icon_facebook" src="facebook-brands-solid.svg"></img>
+        </a>        
         <aside className='contact_content_header'>
-        <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>
-        <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
+        <a href="mailto:alexisdurand341@gmail.com">
+          <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>
+        </a>
+        <a href="tel:+33656772792">
+          <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
+        </a>
         </aside>
         </aside>
       </nav>
@@ -71,7 +77,9 @@ const Header = () => {
         <img className="logo-header" src="./logo.jpg" alt="Logo"/>
         </Link>
         <div id="menuToggle">
-        <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
+        <a href="tel:+33656772792">
+          <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
+        </a>
         <label htmlFor="menu"></label>
           <input id='menu' name="menu" type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />
           <span></span>
@@ -85,8 +93,12 @@ const Header = () => {
             <li><Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link></li>        
             <li><Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
             <aside className='contact_container_header'>
-        <img className='icon_facebook' alt='icon_facebook' src='facebook-brands-solid.svg'></img>
-        <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>
+            <a target='_blank' className='contact_info_facebook' href="https://www.facebook.com/profile.php?id=100079740254760"> 
+                <img className="contact_icon_facebook" alt="icon_facebook" src="facebook-brands-solid.svg"></img>
+                </a>  
+                <a href="mailto:alexisdurand341@gmail.com">         
+            <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>
+            </a>
         </aside>
           </ul>
         </div>

@@ -1,0 +1,229 @@
+.container_contact{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+    background-color: #C99C64;
+}
+.contact_info{
+    width: 50vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+    margin: 25px;
+    border-radius: 25px;
+}
+.contact_info p {
+    color: #000000;    
+}
+.contact_info_mail, .contact_info_phone, .contact_info_facebook, .contact_info_location{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+.contact_icon_mail, .contact_icon_phone, .contact_icon_facebook, .contact_icon_location{
+    width: 50px;
+    height: 30px;
+}
+.contact_info .about_description_zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_info .about_zone_details{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 0 20px;
+}
+.contact_info .about_description_title{
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
+.contact_info .about_description_title_zone{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+.contact_info .about_zone_details{
+    position: relative;
+}
+.contact_info .maps_zone{
+    position: absolute;
+    right: 0px;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    bottom: -13px;
+}
+.form_title{
+    font-size: 30px;
+    margin: 15px 0;
+    color: #000000;
+}
+.container_form{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 0;
+}
+.container_form label {
+    color: #000000;
+    font-size: 25px;
+}
+.container_form .name,.container_form .tel,.container_form .email,.container_form .prestation,.container_form .message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form_group {
+    display: flex;
+    gap: 5vw;
+    width: 80%;
+}
+.email, .prestation, .message {
+    width: 40vw;
+}
+.name, .tel {
+    width: 25vw;
+}
+.container_form input{
+    height: 30px;
+}
+.container_form select{
+    height: 36px;
+}
+.container_form textarea{
+    height: 100px;
+}
+.container_form .form_button{
+    margin-top: 15px;
+    width: 30vw;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1749px) {
+    .contact_info {
+        margin: 25px 5vw;
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 1750px){
+    .contact_info {
+        margin: 25px 7.5vw;
+        width: 35vw;
+    }
+}
+@media screen and (min-width: 1400px){
+    .form_group_mail{
+        display: flex;
+        width: 80%;
+        gap: 5vw;
+        align-items: flex-end;
+    }
+    .form_group_mail .email, .form_group_mail .prestation{
+        width: 25vw;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contact_info{
+        width: 70vw;
+        padding: 5vw;
+    }
+    .container_form{
+        width: 70vw;
+        margin: 5px 5vw;
+        padding: 0;
+    }
+    .form_group{
+        width: 70vw;
+    }
+    .container_form .name,.container_form .tel {
+        width: 35vw;
+    }
+    .container_form .email,.container_form .prestation,.container_form .message{
+        width: 70vw;
+    }
+    .container_form .form_button{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .container_contact{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contact_info{
+        height: auto;
+        margin: 25px 0;
+    }
+    .form_group{
+        gap: 2.5vw;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .contact_info p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .contact_icon_mail, .contact_icon_phone, .contact_icon_facebook, .contact_icon_location {
+        width: 40px;
+    }
+    .container_form label{
+        font-size: 18px;
+    }
+    .contact_info .about_description_title{
+        font-size: 20px;
+    }
+    .contact_info .about_description_title_zone{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .contact_info{
+        width: 87vw;
+        padding: 1vw;
+    }
+    .contact_info .about_zone_details{
+        flex-direction: column;
+    }
+    .contact_info .maps_zone{
+        position: initial;
+    }
+    .container_form{
+        width: 90vw;
+        margin: 5px 5vw;
+        padding: 0;
+    }
+    .form_group{
+        width: 100%;
+    }
+    .container_form .name,.container_form .tel {
+        width: 45vw;
+    }
+    .container_form .email,.container_form .prestation,.container_form .message{
+        width: 90vw;
+    }
+    .container_form .form_button{
+        width: 90%;
+        font-size: 18px;
+    }
+}

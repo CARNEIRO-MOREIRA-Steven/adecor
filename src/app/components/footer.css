@@ -69,6 +69,28 @@ footer{
     border-radius: 100%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    footer{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .footer_content {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer_links, .footer_infos, .footer_maps, .footer_logo{
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_copyright{
+        width: 95%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     footer {
         overflow: hidden;
@@ -90,8 +112,8 @@ footer{
     }
     .footer_logo img{
         position: absolute;
-        bottom: 120px;
-        width: 100px;
-        height: 100px;
+        bottom: 115px;
+        width: 80px;
+        height: 80px;
     }
 }

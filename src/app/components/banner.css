@@ -8,11 +8,6 @@
  height: 72vh;
  object-fit: cover;
  filter:brightness(50%);
- /* filter: brightness(0.4);
- background-image: url('../../../public/banner_image.webp');
- background-position: 0%;
- background-size: cover;
- background-repeat: no-repeat; */
 }
 .container_intro_banner{
     display: flex;
@@ -111,7 +106,22 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
+    .container_intro_banner{
+        height: 72vh;
+    }
+    .intro_banner, .form_content{
+        width: 45vw;
+    }
+    .banner_title{
+        font-size: 40px;
+    }
+    .banner_subtitle{
+        font-size: 30px;
+    }
+    .services_button, .contact_button {
+        width: auto;
+        padding: 0 15px;
+    }
 }
 
 @media screen and (max-width: 767px) {
