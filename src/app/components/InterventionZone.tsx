@@ -16,7 +16,7 @@ const InterventionZone = () => {
           <li>Compiègne</li> <li>Chauny</li><li> Ham</li> <li> Soissons</li> <li> Roye </li> <li> Ressons-sur-Matz </li>
           </ul>
         </aside>
-        <aside><img alt='maps zone intervention' className='maps_zone' src='maps_zone.png'></img></aside>
+        <aside><img alt='maps zone intervention' className='maps_zone' src='maps_zone.webp' loading='lazy'></img></aside>
         </section> 
         </section>
   )

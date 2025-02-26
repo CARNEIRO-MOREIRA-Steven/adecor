@@ -51,10 +51,10 @@ const index = () => {
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des revetement de sol de qualité professionnelle.' />
         <PrestationRealisations 
-        image='./toilette.jpeg' 
+        image='./toilette2.webp' 
         image2='./toilette.webp'
-        image3='./chambre_sol1.png'
-        image4='chambre_sol2.png'
+        image3='./chambre_sol1.webp'
+        image4='chambre_sol2.webp'
         />
       <AboutPrestation
       image=''
@@ -71,7 +71,7 @@ const index = () => {
         <p>N'hésitez pas à prendre contact. Nous seront vous apporter des conseils fiables et répondre à toutes vos interrogations afin que vos projets prennent formes.</p>
             " />
         <PrestationDetails
-        image='./reno.jpeg'
+        image='./reno.webp'
         title="Les étapes clefs d'un revêtement de sol chez A'decor"
         subtitle="Chez A'DECOR, nous croyons que votre intérieur doit refléter vos gouts et vous satisfaire dans votre lieu de vie c'est pour cela que nous seront à votre écoute tout au long du projet"
         description={[

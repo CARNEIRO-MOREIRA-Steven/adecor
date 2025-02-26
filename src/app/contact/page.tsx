@@ -7,8 +7,8 @@ import FormContact from '../components/FormContact'
 
 const index = () => {
   return (
-    <section>
-      <Header />
+    <section >
+      <Header  />
       <BannerPrestation 
       image='./chambre1.png'
       title=''

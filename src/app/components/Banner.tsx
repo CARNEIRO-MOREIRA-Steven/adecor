@@ -4,7 +4,6 @@ import './banner.css'
 import BottomBanner from './BottomBanner';
 
 
-<link rel="preload" as="image" href="banner_image.webp"></link>
 const Banner = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState ({
@@ -70,6 +69,7 @@ const Banner = () => {
   return (
     <section className='container_banner'>
         <img alt='image banner' className='banner_image' src='banner_image.webp'></img>
+        <img alt='image banner' className='banner_image_mobile' src='banner_image_mobile.webp'></img>
         <section className='container_intro_banner'>
         <section className='intro_banner'>
             <h1 className='banner_title'>A'decor</h1>

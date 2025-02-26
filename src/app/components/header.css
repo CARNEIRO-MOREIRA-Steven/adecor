@@ -7,13 +7,14 @@
 }
 
 .logo-header{
-  width: auto;
-    height: 17vh;
+    width: 150px;
+    height: 155px;
     object-fit: cover;
     z-index: 10;
 }
 .contact_icon_facebook{
   width: 30px;
+  height: 30px;
 }
 
 .nav-links{
@@ -109,8 +110,8 @@ header {
     position: absolute;
     flex-direction: row;
     align-items: flex-start;
-    top: 14vh;
-    right: 10px;
+    top: 15.5vh;
+    right: 25px;
     gap: 25px;
   }
 
@@ -154,14 +155,13 @@ header {
     background: #000000;
     border-radius: 3px;
     z-index: 100;
-    transform-origin: 5px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
                 background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
                 opacity 0.55s ease;
   }
   
   #menuToggle input:checked ~ span {
-    transform: rotate(45deg) translate(-3px, -1px);
+    transform: rotate(45deg) translate(-8px, -1px);
     background: #000000; 
   }
   
@@ -171,7 +171,7 @@ header {
   }
   
   #menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(-5px, -1px);
   }
   
   #menu {
@@ -229,15 +229,19 @@ header {
     border-radius: 5px;
     cursor: pointer;
   }
-  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  @media screen and (min-width: 1024px) and (max-width: 1250px) {
     .logo-header{
-    height: 15vh;
+    height: 19vh;
     }
     .nav-links {
       flex-wrap: wrap;
-      justify-content: flex-end;
+      justify-content: center;
+      width: 55%;
   }
+    .desktop-nav{
+      padding: 0;
   }
+}
 
   @media screen and (max-width: 1023px) {
     .desktop-nav {

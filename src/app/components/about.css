@@ -122,6 +122,10 @@
     font-size: 22px;
     color: #ffffff;
 }
+.maps_zone{
+    width: 300px;
+    height: 300px;
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
 .about_description_entreprise{
@@ -185,7 +189,8 @@
         font-size: 16px;
     }
     .maps_zone{
-        width: 100vw;
+        width: 200px;
+        height: 200px;
         object-fit: cover;
     }
     .about_description_entreprise .about_description_title{

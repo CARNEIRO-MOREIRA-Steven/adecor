@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./realisations.css";
 
-const images = ["devant_maison.png", "garde_corps_après.jpg", "interieur_poutre_fin.jpg"];
+const images = ["devant_maison.webp", "garde_corps_après.webp", "interieur_poutre_fin.webp"];
 
 const Realisations = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -40,7 +40,7 @@ const Realisations = () => {
           <>
             <button className="prev" onClick={() => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length)}>❮</button>
             <div className="carousel-wrapper">
-              <img
+              <img loading="lazy"
                 className="image_realisation"
                 src={images[currentIndex]}
                 alt={`Réalisation ${currentIndex + 1}`}

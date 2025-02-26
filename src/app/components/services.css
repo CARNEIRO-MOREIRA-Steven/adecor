@@ -37,7 +37,7 @@
     padding: 25px 0;
     gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .card{
     height: 50vh;
@@ -93,17 +93,17 @@
     text-align: center;
 }
 .card_1{
-    background-image: url('../../../public/peinture_intérieur.jpg');
+    background-image: url('../../../public/peinture_intérieur_card.webp');
 }
 .card_2{
-    background-image: url('../../../public/isolation.jpg');
+    background-image: url('../../../public/isolation.webp');
 }
 
 .card_3{
-    background-image: url('../../../public/peinture_exterieur.jpg');
+    background-image: url('../../../public/peinture_exterieur.webp');
 }
 .card_4{
-    background-image: url('../../../public/sol.jpg');
+    background-image: url('../../../public/sol.webp');
 }
 .card_1 .card_title, .card_3 .card_title{
     width: 100%;
@@ -163,6 +163,7 @@
     .services_cards {
         width: 80vw;
         padding: 25px 0;
+        justify-content: center;
     }
     .card {
         width: 35vw;
@@ -172,6 +173,7 @@
     .services_cards {
         width: 100vw;
         padding: 25px 0;
+        justify-content: center;
     }
     .card {
         width: 40vw;

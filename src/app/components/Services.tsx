@@ -41,15 +41,6 @@ const Services = () => {
                 </button>
                 </div>
             </aside>
-            {/* <aside className='card card_3'>
-                <div className='card_content'>
-                <h4 className='card_title'>Décoration</h4>
-                <button className='btn_card'><a className='link_card' href='./peinture-interieure'>
-                {isMobile ? 'Décoration' : 'Rénover ma décoration'}</a>
-                
-                </button>
-                </div>
-            </aside> */}
             <aside className='card card_3'>
                 <div className='card_content'>
                 <h4 className='card_title'>Peinture extérieur</h4>
@@ -64,14 +55,6 @@ const Services = () => {
                 <button className='btn_card'><a className='link_card' href='./peinture-interieure'>Rénover mes sols</a></button>
                 </div>
             </aside>
-            {/* <aside className='card card_6'>
-                <div className='card_content'>
-                <h4 className='card_title'>Aménagement intérieur</h4>
-                <button className='btn_card'><a className='link_card' href='./peinture-interieure'>
-                {isMobile ? 'Aménagement' : 'Réagencer mon intérieur'}</a>
-                </button>
-                </div>
-            </aside> */}
         </section>
     </section>
   )

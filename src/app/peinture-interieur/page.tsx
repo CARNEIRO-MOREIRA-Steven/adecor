@@ -18,10 +18,10 @@ const index = () => {
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
         <PrestationRealisations 
-        image='./interieur_escalier_debut.jpg' 
-        image2='./interieur_escalier_fin.jpg' 
-        image3='./interieur_poutre_debut.jpg'
-        image4='./interieur_poutre_fin.jpg'
+        image='./interieur_escalier_debut.webp' 
+        image2='./interieur_escalier_fin.webp' 
+        image3='./interieur_poutre_debut.webp'
+        image4='./interieur_poutre_fin.webp'
         />
       <AboutPrestation
       image=''
@@ -37,7 +37,7 @@ const index = () => {
         <p>N'hésitez pas à prendre contact. Nous seront vous apporter des conseils fiables et répondre à toutes vos interrogations afin que vos projets prennent formes.</p>
             " />
         <PrestationDetails
-        image='./peinture_interieur.png'
+        image='./peinture_interieur.webp'
         title="Les étapes clefs d'une réfection de votre peinture d'intérieure"
         subtitle="Chez A'DECOR, nous croyons que votre intérieur doit refléter vos gouts et vous satisfaire dans votre lieu de vie c'est pour cela que nous seront à votre écoute tout au long du projet"
         description={[

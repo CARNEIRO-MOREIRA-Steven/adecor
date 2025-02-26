@@ -12,12 +12,12 @@ const index = () => {
     <section className='peinture_interieur_container'>
       <Header />
       <BannerPrestation 
-      image='./devant_maison.png'
+      image='./devant_maison.webp'
       title='Peinture extérieur'
       className='special'
       desciption='Apportez une nouvelle vie à votre maison grâce à des peintures extérieures de haute qualité.' />
       <AboutPrestation
-        image = 'devant_maison_avant.png'
+        image = 'devant_maison_avant.webp'
         title='A’Decor, spécialiste en Peinture extérieure basé à Noyon, dans l’Oise'
         description="<p>Nous vous proposons des solutions de peinture extérieure pour protéger vos façades tout en améliorant l'apparence de votre maison.
         Nous utilisons des peintures spécifiques résistantes aux intempéries pour garantir une longue durée de vie à vos surfaces extérieures.</p>
@@ -26,7 +26,7 @@ const index = () => {
         <p>Améliorez l’apparence de votre maison tout en la protégeant des agressions extérieures grâce à nos prestations de peinture extérieure.</p>"
       />
        <PrestationDetails
-        image='./devant_maison_salle.png'
+        image='./devant_maison_salle.webp'
         className='special one'
         title='Préparation et soins des surfaces'
         subtitle=''
@@ -38,7 +38,7 @@ const index = () => {
         ]} />
       <PrestationDetails
         className='inverted special two'
-        image='./garde_corps_avant.jpg'
+        image='./garde_corps_avant.webp'
         title='Application et finitions'
         subtitle=''
         description={[
@@ -49,7 +49,7 @@ const index = () => {
         ]} />
         <PrestationDetails
         className='last special three'
-        image='./garde_corps_après.jpg'
+        image='./garde_corps_après.webp'
         title='Expertise et qualité :'
         subtitle=''
         description={[
@@ -58,10 +58,10 @@ const index = () => {
           "Nettoyage des zones de travail et mise en valeur des surfaces fraîchement peintes.",
         ]} />
        <PrestationRealisations 
-        image='./grille_avant.jpg' 
-        image2='./grille_apres.jpg'
-        image3='./devant_maison_avant.png'
-        image4='./devant_maison.png'
+        image='./grille_avant.webp' 
+        image2='./grille_apres.webp'
+        image3='./devant_maison_avant.webp'
+        image4='./devant_maison.webp'
         />
       <Footer />
     </section>

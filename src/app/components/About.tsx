@@ -15,7 +15,7 @@ const About = () => {
         </section>
         <section>
         <section className='about_image'>
-        <img className='image_about' src='toilette.webp' alt='image realisation toilette'></img>
+        <img className='image_about' src='toilette.webp' alt='image realisation toilette' loading='lazy'></img>
         <aside className='border_image_about'></aside>  
         </section> 
         </section>

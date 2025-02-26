@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <header>
       <nav className="desktop-nav">
-        <img className="logo-header" src="./logo.jpg" alt="Logo"/>
+        <img className="logo-header" src="./logo.webp" alt="Logo"/>
         <aside className='nav-links'>
         <Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link>
         <Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link>
@@ -74,17 +74,18 @@ const Header = () => {
       </nav>
       <div className="mobile-menu">
       <Link className='logo_link_header' href="/">
-        <img className="logo-header" src="./logo.jpg" alt="Logo"/>
+        <img className="logo-header" src="./logo.webp" alt="Logo"/>
         </Link>
         <div id="menuToggle">
         <a href="tel:+33656772792">
           <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
         </a>
-        <label htmlFor="menu"></label>
+        <label htmlFor="menu">    
           <input id='menu' name="menu" type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />
           <span></span>
           <span></span>
           <span></span>
+        </label>
           <ul id="menu" className={isMenuOpen ? 'open' : ''}>
             <li><Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link></li>
             <li><Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link></li>

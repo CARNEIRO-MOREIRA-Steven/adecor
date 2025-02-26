@@ -9,7 +9,7 @@ import PrestationRealisations from '../components/Prestations/PrestationRealisat
 const index = () => {
   const prestations = [
     {
-      image :'./isolation2.jpg',
+      image :'./isolation2.webp',
       title :"Diagnostic et préparation pour l'isolation",
       subtitle : '',
       description :[
@@ -21,7 +21,7 @@ const index = () => {
     },
       {
         className:'',
-        image:'./interieur1.jpg',
+        image:'./interieur1.webp',
         title:'Pose de l’isolation thermique et acoustique',
         subtitle : '',
         description:[
@@ -41,7 +41,7 @@ const index = () => {
       className='inverted isolation'
       desciption='Apportez une nouvelle vie à vos espaces grâce à un aménagement et une isolation efficaces.' />
       <AboutPrestation
-        image='./isolation1.jpg'
+        image='./isolation1.webp'
         title='A’Decor spécialiste en Isolation thermique et acoustique basé à Noyon, dans l’Oise'
         description="<p>L'isolation thermique et acoustique est un choix important pour garantir la confort et la durabilité de votre maison.</p>
         <p>Notre entreprise est spécialisée dans l'isolation thermique et acoustique, offrant des solutions adaptées aux besoins de chacun.</p>
@@ -49,10 +49,10 @@ const index = () => {
             " />
         <PrestationDetailsCarousel prestations={prestations} />
         <PrestationRealisations 
-        image='./avant_isolation.png' 
-        image2='./interieur3.jpg'
-        image3='./amenagement_chambre.jpg'
-        image4='amenagement_apres.png'
+        image='./avant_isolation.webp' 
+        image2='./interieur3.webp'
+        image3='./amenagement_chambre.webp'
+        image4='amenagement_apres.webp'
         />
       <Footer />
     </section>

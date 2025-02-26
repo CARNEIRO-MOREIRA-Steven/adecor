@@ -20,7 +20,7 @@ const Footer = () => {
             <p>06.56.77.27.92</p>
             <p>alexisdurand341@gmail.com</p>
             <a target='_blank' className='contact_info_facebook' href="https://www.facebook.com/profile.php?id=100079740254760"> 
-                <img className="contact_icon_facebook" alt="icon_facebook" src="facebook-brands-solid.svg"></img>
+                <img className="contact_icon_facebook" alt="icon_facebook" src="facebook-brands-solid.svg" loading='lazy'></img>
             </a>        
         </aside>
         <aside className='footer_maps'>
@@ -28,7 +28,7 @@ const Footer = () => {
          width="250" height="250" loading="lazy" title='maps google'></iframe>
         </aside>
         <aside className='footer_logo'>
-            <img src='logo.jpg' alt="logo a'decor"></img>
+            <img src='logo.webp' alt="logo a'decor" loading='lazy'></img>
         </aside>
         </section>
         <p className='footer_copyright'> Créé par CodeMeta Solutions - Copyright ©2025 - Mentions légales et Politiques de confidentialité</p>

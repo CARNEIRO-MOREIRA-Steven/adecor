@@ -13,7 +13,7 @@ const PrestationDetails : React.FC<PrestationDetailsProps> = ( {title,subtitle, 
   return (
     <section>
     <section className={`prestation-container ${className || ""}`}>
-        <img className='prestation-image' src={image}></img>
+        <img className='prestation-image' loading='lazy' alt='image realisation details' src={image}></img>
         <section className='prestation-details'>
             <h4 className='prestation-title'>{title}</h4>
             <h5 className='prestation-subtitle'>{subtitle}</h5>
