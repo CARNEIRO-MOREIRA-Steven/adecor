@@ -12,10 +12,10 @@ interface PrestationRealisationsProps {
 const PrestationRealisations : React.FC<PrestationRealisationsProps> = ({image, image2, image3, image4, className}) => {
   return (
     <section className='realisations_container' id='realisations_carousel'>
-        <img className='realisation_image' alt='image realisation chantier'  src={image}></img>
-        <img className='realisation_image' alt='image realisation chantier' src={image2}></img>
-        <img className='realisation_image' alt='image realisation chantier' src={image3}></img>
-        <img className={`realisation_image ${className || ""}`} alt='image realisation chantier' src={image4}></img>
+        <img className='realisation_image' alt='image realisation chantier' loading='lazy'  src={image}></img>
+        <img className='realisation_image' alt='image realisation chantier' loading='lazy' src={image2}></img>
+        <img className='realisation_image' alt='image realisation chantier' loading='lazy' src={image3}></img>
+        <img className={`realisation_image ${className || ""}`} alt='image realisation chantier' loading='lazy' src={image4}></img>
     </section>
   )
 }

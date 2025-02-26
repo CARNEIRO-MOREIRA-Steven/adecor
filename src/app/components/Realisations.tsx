@@ -50,7 +50,7 @@ const Realisations = () => {
           </>
         ) : (
           images.map((src, index) => (
-            <img key={index} className="image_realisation" src={src} alt={`Réalisation ${index + 1}`} />
+            <img key={index} className="image_realisation" loading='lazy' src={src} alt={`Réalisation ${index + 1}`} />
           ))
         )}
       </div>

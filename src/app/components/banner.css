@@ -151,16 +151,16 @@
     }
     .banner_image{
         height: 618px;
-        max-width: 768px;
-        /* display: none; */
+        width: 100%;
+        display: none;
     }
-    /* .banner_image_mobile{
+    .banner_image_mobile{
         display: flex;
-        width: 100vw;
-        height: 100%;
+        width: 100%;
+        height: 618px;
         object-fit: cover;
         filter:brightness(50%);
-    } */
+    }
     .intro_banner{
         text-align: center;
         width: 95%;
