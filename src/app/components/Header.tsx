@@ -80,28 +80,31 @@ const Header = () => {
         <a href="tel:+33656772792">
           <img className='icon_phone' alt='icon_phone' src='phone-solid.svg'></img>
         </a>
-        <label htmlFor="menu">    
-          <input id='menu' name="menu" type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />
+        <label htmlFor="menu">
+          <span className="sr-only">Menu hamburger</span> {/* Libellé accessible */}
+          <input id="menu" name="menu" type="checkbox" checked={isMenuOpen} onChange={toggleMenu} />
           <span></span>
           <span></span>
           <span></span>
-        </label>
-          <ul id="menu" className={isMenuOpen ? 'open' : ''}>
+          </label>
+          <div id="menu" className={isMenuOpen ? 'open' : ''}>
+          <ul className='list_menu'>
             <li><Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link></li>
             <li><Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link></li>
             <li><Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Aménagement et Isolation</Link></li>           
             <li><Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieure</Link></li>           
             <li><Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link></li>        
             <li><Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
-            <aside className='contact_container_header'>
+          </ul>
+            <div className='contact_container_header'>
             <a target='_blank' className='contact_info_facebook' href="https://www.facebook.com/profile.php?id=100079740254760"> 
                 <img className="contact_icon_facebook" alt="icon_facebook" src="facebook-brands-solid.svg"></img>
                 </a>  
                 <a href="mailto:alexisdurand341@gmail.com">         
             <img className='icon_mail' alt='icon_mail' src='envelope-regular.svg'></img>
             </a>
-        </aside>
-          </ul>
+        </div>
+        </div>
         </div>
       </div>
             </header>

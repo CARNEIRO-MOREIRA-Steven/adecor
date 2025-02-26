@@ -13,7 +13,7 @@ const index = () => {
     <section>
       <Header />
       <BannerPrestation 
-      image='./peinture2.png'
+      image='./interieur_escalier_debut.webp'
       title='Peinture interieure'
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />

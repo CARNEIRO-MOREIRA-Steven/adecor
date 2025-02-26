@@ -61,16 +61,16 @@
 .card_1 a.link_card, .card_4 a.link_card, .card_1 .card_title, .card_4 .card_title{
  color: #000000;
 }
-.card_1 .btn_card, .card_4 .btn_card{
+.card_1 .link_card, .card_4 .link_card{
     border: solid 2px #000000;
    }
-.card_1 .btn_card, .card_4 .btn_card{
+.card_1 .link_card, .card_4 .link_card{
     background-color: #C99C64;
 }
 .card_2 .card_content, .card_3 .card_content{
     background-color: #4791AC;
 }
-.card_2 .btn_card, .card_3 .btn_card{
+.card_2 .link_card, .card_3 .link_card{
     background-color: #4791AC;
 }
 .card_content{
@@ -109,26 +109,24 @@
     width: 100%;
     margin: 0;
 }
-.card_2 .card_title, .card_3 .card_title{
+.card_2 .card_title, .card_4 .card_title{
     color: #ffffff;
     width: 100%;
     margin: 0;
 }
-.btn_card{
+ .link_card{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
     width: auto;
     padding: 10px;
-    height: 30%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid 2px #ffffff;
     border-radius: 50px;
-}
- .btn_card .link_card{
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 600;
-    text-decoration: none;
     
  }
  @media screen and (min-width: 1600px) {
@@ -138,11 +136,11 @@
     .card_3 .card_title {
         color: #000000;
     }
-    .card_3 .btn_card {
+    .card_3 .link_card {
         background-color: #C99C64;
         border: #000000 solid 2px;
     }
-    .card_3 .btn_card .link_card{
+    .card_3 .link_card{
         color: #000000;
     }
     .card_4 .card_content {
@@ -151,11 +149,11 @@
     .card_4 .card_title {
         color: #ffffff;
     }
-    .card_4 .btn_card {
+    .card_4 .link_card {
         background-color: #4791AC;
         border: #ffffff solid 2px;
     }
-    .card_4 .btn_card .link_card{
+    .card_4 .link_card{
         color: #ffffff;
     }
  }
@@ -231,26 +229,26 @@
     .card_1 a.link_card, .card_4 a.link_card, .card_5 a.link_card, .card_1 .card_title, .card_4 .card_title, .card_5 .card_title{
         color: #000000 !important;
        }
-    .card_4 .btn_card{
+    .card_4 .link_card{
         border: solid 2px #000000;
        }
-       .card_3 .btn_card{
+       .card_3 .link_card{
         border: solid 2px #ffffff;
        }
        .card_3 a.link_card{
         color: #ffffff !important;
        }
-    .card_3 .card_content , .card_3 .btn_card{
+    .card_3 .card_content , .card_3 .link_card{
         background-color: #4791AC;
     }
-    .card_4 .card_content , .card_4 .btn_card{
+    .card_4 .card_content , .card_4 .link_card{
         background-color: #C99C64;
     }
-    .btn_card{
+    .link_card{
         padding: 5px;
-        width: 150px;
+        width: 135px;
     }
-    .btn_card .link_card{
-        font-size: 15px;
+    .link_card{
+        font-size: 14px;
     }
 }

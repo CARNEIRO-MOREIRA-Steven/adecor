@@ -18,7 +18,7 @@ footer{
 
 .footer_links_title, .footer_infos_title{
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
     margin: 5px 0;
     font-weight: 800;
 }
@@ -34,7 +34,7 @@ footer{
 .footer_links a, p{
     margin: 5px 0;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
     font-weight: 600;
 }
@@ -48,13 +48,13 @@ footer{
 }
 
 .footer_infos p {
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer_copyright{
     text-align: center;
     margin:25px 0 5px 0;
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer_logo{

@@ -28,31 +28,28 @@ const Services = () => {
             <aside className='card card_1'>
                 <div className='card_content'>
                 <h4 className='card_title'>Peinture intérieur</h4>
-                <button className='btn_card'><a className='link_card' href='./peinture-interieur'>
+                <a className='link_card' href='./peinture-interieur'>
                 {isMobile ? 'Peinture intérieur' : 'Rénover mes peintures intérieures'}</a>
-                </button>
                 </div>
             </aside>
             <aside className='card card_2'>
                 <div className='card_content'>
                 <h4 className='card_title'>Aménagement et Isolation</h4>
-                <button className='btn_card'><a className='link_card' href='./peinture-interieure'>                
+                <a className='link_card' href='./isolation'>                
                 {isMobile ? 'Isolation' : 'Rénover mon isolation'}</a>
-                </button>
                 </div>
             </aside>
             <aside className='card card_3'>
                 <div className='card_content'>
                 <h4 className='card_title'>Peinture extérieur</h4>
-                <button className='btn_card'><a className='link_card' href='./peinture-interieure'>
+                <a className='link_card' href='./peinture-exterieur'>
                 {isMobile ? 'Peinture extérieur' : 'Rénover mes peintures extérieures'}</a>
-                </button>
                 </div>
             </aside>
             <aside className='card card_4'>
                 <div className='card_content'>
                 <h4 className='card_title'>Revetement de sols</h4>
-                <button className='btn_card'><a className='link_card' href='./peinture-interieure'>Rénover mes sols</a></button>
+                <a className='link_card' href='./revetement-de-sols'>Rénover mes sols</a>
                 </div>
             </aside>
         </section>
