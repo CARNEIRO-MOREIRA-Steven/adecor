@@ -19,11 +19,14 @@ const index = () => {
       <AboutPrestation
         image = 'garde_corps_après.webp'
         title='A’DECOR, spécialiste en Peinture extérieure basé à Noyon, dans l’Oise'
-        description="<p>Nous vous proposons des solutions de peinture extérieure pour protéger vos façades tout en améliorant l'apparence de votre maison.
-        Nous utilisons des peintures spécifiques résistantes aux intempéries pour garantir une longue durée de vie à vos surfaces extérieures.</p>
-        <p>Notre service comprend la préparation minutieuse des surfaces, l'application de peintures de qualité, et des finitions impeccables pour garantir
-        une protection et une esthétique optimales.</p>
-        <p>Améliorez l’apparence de votre maison tout en la protégeant des agressions extérieures grâce à nos prestations de peinture extérieure.</p>"
+        description="<p>Nous vous proposons des solutions de <strong>peinture extérieure</strong> pour protéger vos <strong>façades</strong> tout en améliorant l'apparence de votre
+        maison.
+        Nous utilisons des <strong>peintures</strong> spécifiques résistantes aux intempéries pour garantir une longue durée de vie à vos 
+        <strong>surfaces extérieures</strong>.</p>
+        <p>Notre service comprend la <strong>préparation minutieuse</strong> des surfaces, l'application de <strong>peintures de qualité</strong>, et des finitions impeccables pour garantir
+        une protection et une <strong>esthétique optimales</strong>.</p>
+        <p><strong>Améliorez l’apparence</strong> de votre maison tout en la protégeant des agressions extérieures grâce à nos prestations de 
+        <strong>peinture extérieure</strong>.</p>"
       />
        <PrestationDetails
         image='./devant_maison_salle.webp'

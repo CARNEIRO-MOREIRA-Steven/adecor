@@ -309,6 +309,8 @@ header {
     .icon_phone{
       width: 30px;
       height: 30px;
+      right: 2%;
+      top: 94%;
     }
 
     .title_subnav{

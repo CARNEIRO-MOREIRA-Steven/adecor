@@ -18,8 +18,8 @@ const index = () => {
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
         <PrestationRealisations 
-        image='./interieur_escalier_debut.webp' 
-        image2='./interieur_escalier_fin.webp' 
+        image='./peinture_chambre.webp' 
+        image2='./peinture_chambre_apres.webp' 
         image3='./interieur_poutre_debut.webp'
         image4='./interieur_poutre_fin.webp'
         />
@@ -27,13 +27,15 @@ const index = () => {
       image=''
       className='peinture_interieur_banner'
         title='A’DECOR, votre Peintre décorateur professionnel à Noyon dans l’Oise'
-        description="<p>A la recherche d’un artisan peintre pour peindre l’intérieur de votre logement ou de vos locaux ? . Nos experts en peinture interviennent dans un rayon de 40 km autour de Noyon, dans l’Oise et l'Aisne disposant de toutes les compétences pour réaliser vos souhaits tels que :</p>
+        description="<p>A la recherche d’un artisan peintre pour <strong>peindre l’intérieur</strong> de votre logement ou de vos locaux ? . Nos experts en peinture interviennen
+         dans un rayon de <strong>40 km autour de Noyon</strong>, dans l’Oise et l'Aisne disposant de toutes les compétences pour réaliser vos souhaits tels que :</p>
         <ul>
-        <li>La peinture de vos murs et plafonds, qu’il s’agisse d’un simple rafraîchissement ou d’une rénovation complète</li>
-        <li>Peindre vos boiseries, pour un cachet supplémentaire</li>
-        <li>Réaliser vos moulures, aussi bien au plafond qu'au mur</li>
-        <li>Réaliser des peintures et enduits décoratives sur vos murs, avec des effets de matière ou de couleurs</li>
-        <li>Poser du papier peint pour un rendu personnalisé.</li></ul>
+        <li>La <strong>peinture</strong> de vos murs et plafonds, qu’il s’agisse d’un simple rafraîchissement ou d’une <strong>rénovation complète</strong></li>
+        <li>Peindre vos <strong>boiseries</strong>, pour un cachet supplémentaire</li>
+        <li>Réaliser vos <strong>moulures</strong>, aussi bien au <strong>plafond qu'au mur</strong></li>
+        <li>Réaliser des <strong>peintures</strong> et <strong>enduits décoratives</strong> sur vos murs, avec des effets de <strong>matière</strong> ou de
+        <strong>couleurs</strong></li>
+        <li>Poser du <strong>papier peint</strong> pour un rendu personnalisé.</li></ul>
         <p>N'hésitez pas à prendre contact. Nous seront vous apporter des conseils fiables et répondre à toutes vos interrogations afin que vos projets prennent formes.</p>
             " />
         <PrestationDetails

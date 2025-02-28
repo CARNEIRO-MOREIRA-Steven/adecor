@@ -10,7 +10,7 @@
 .prestation_container {
     display: flex;
     width: 100vw;
-    height: 75vh;
+    height: auto;
     align-items: center;
     justify-content: space-between; 
     gap: 10%;
@@ -42,18 +42,14 @@
 .prev_projet {
     left: 10px;
 }
-
 .prestation_carousel .prestation-details{
     background-color: #4791AC;
 }
 .prestation_carousel .prestation-details li, .prestation_carousel .prestation-details .prestation-title{
     color: #ffffff;
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1499px) {
-    .prestation_container{
-        height: 90vh;
-    }
+.prestation_container.carousel_inverted .prestation-subtitle{
+    display: none;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .prestation_container {
@@ -68,10 +64,10 @@
     }
 }
 @media screen and (max-width: 767px) {
-    .prestation_carousel .prestation-container, .prestation-container.inverte{
+    .prestation_carousel .prestation-container, .prestation-container.inverted{
         flex-direction: column-reverse;
     }
-    .prestation_container {
+    .prestation_container { 
         width: 100%;
         height: auto;
         flex-direction: column;

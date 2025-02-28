@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 75vh;
+    height: auto;
     justify-content: space-between;
 }
 .prestation-container.inverted{
@@ -11,7 +11,7 @@
 }
 .prestation-image{
     width: 35vw;
-    height: 100%;
+    height: auto;
     object-fit: cover;
 }
 .prestation-details{
@@ -24,20 +24,18 @@
     align-items: flex-start;
     background-color: #C99C64;
 }
-
+.prestation-container.special .prestation-subtitle{
+    display: none;
+}
 .prestation-container.special.one .prestation-details ,.prestation-container.special.three .prestation-details {
     background-color: #4791AC !important;
 }
-
-
 .prestation-container.special.one .prestation-details li ,.prestation-container.special.three .prestation-details li {
     color: #ffffff;
 }
-
 .prestation-container.special.one .prestation-details .prestation-title ,.prestation-container.special.three .prestation-details .prestation-title {
     color: #ffffff;
 }
-
 .prestation-subtitle{
     font-size: 22px;
     color: #000000;
@@ -49,6 +47,7 @@
 }
 .prestation-container.special .prestation-image{
     width: 50vw;
+    height: auto;
 }
 .prestation-container.special .prestation-details{
     width: 45vw;
@@ -76,11 +75,6 @@
     color: #000000;
     width: 90%;
 }
-@media screen and (min-width: 1024px) and (max-width: 1499px) {
-    .prestation-container{
-        height: 90vh;
-    }
-}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .prestation-image{
         width: 35%;
@@ -98,8 +92,6 @@
     .prestation-title{
         font-size: 30px;
     }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
     .prestation-container, .prestation-image {
         height: auto;
     }
@@ -123,23 +115,25 @@
         padding: 0;
         height: auto;
     }
-    
-.prestation-container.special.one .prestation-image{
+    .prestation-container.special.one .prestation-image{
     display: none;
-}
+    }
     .prestation-details{
-        width: 100vw; 
+        width: 95vw; 
         align-items: center;
         background-color: #C99C64;
-      }
-      .prestation-title{
+    }
+    .prestation-title{
         font-size: 25px;
         text-align: center;
         color: #000000;
     }
     .prestation-subtitle{
-        font-size: 20px;
+        font-size: 18px;
         color: #000000;
+    }
+    .prestation-list{
+        gap: 25px;
     }
     .prestation-list li {
         font-size: 16px;
@@ -151,7 +145,10 @@
         object-fit: cover;
         height: 40vh;
     }
-    .prestation-container.special .prestation-image, .prestation-container.special .prestation-details{
+    .prestation-container.special .prestation-image{
         width: 100vw;
+    }
+    .prestation-container.special .prestation-details{
+        width: 95vw;
     }
 }

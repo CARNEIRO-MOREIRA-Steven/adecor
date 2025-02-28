@@ -58,15 +58,16 @@ const index = () => {
         />
       <AboutPrestation
       image=''
-      className='peinture_interieur_banner'
+      className='revetement_banner'
         title='A’DECOR, spécialiste en Revêtements de sols basé à Noyon, dans l’Oise'
-        description="<p>Nous vous proposons une large gamme de revêtements de sols adaptés à vos besoins : carrelage, parquet, moquette, sols PVC, etc.
-        Notre équipe vous accompagne dans le choix et la pose de revêtements qui allient esthétisme, confort et durabilité.</p>
-        <p>Notre expertise en revêtements de sols comprend :
+        description="<p>Nous vous proposons une large gamme de <strong>revêtements de sols</strong> adaptés à vos besoins : 
+        <strong>carrelage, parquet, moquette, sols PVC</strong>, etc.
+        Notre équipe vous accompagne dans le <strong>choix et la pose de revêtements</strong> qui allient esthétisme, confort et durabilité.</p>
+        <p>Notre <strong>expertise</strong> en <strong>revêtements de sols</strong> comprend :
         <ul>
-        <li>La pose de carrelage, parquet, PVC, lino, moquette ou autres revêtements selon votre choix</li>
-        <li>Le choix et la pose de sous-couches pour assurer une meilleure adhérence des revêtements</li>
-        <li>Le diagnostic de l’état des sols pour identifier les besoins en préparation</li>
+        <li>La pose de <strong>carrelage, parquet, PVC, lino, moquette</strong> ou autres revêtements selon votre choix</li>
+        <li>Le choix et la pose de <strong>sous-couches</strong> pour assurer une <strong>meilleure adhérence</strong> des revêtements</li>
+        <li>Le <strong>diagnostic</strong> de l’état des sols pour <strong>identifier les besoins</strong> en préparation</li>
         </ul>
         <p>N'hésitez pas à prendre contact. Nous seront vous apporter des conseils fiables et répondre à toutes vos interrogations afin que vos projets prennent formes.</p>
             " />
