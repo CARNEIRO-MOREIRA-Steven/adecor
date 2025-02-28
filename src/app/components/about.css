@@ -71,10 +71,8 @@
     object-fit: cover;
 }
 .about_description_zone{
-        margin-top: 50px;
-        width: 80vw;
-        background-color: #C99C64;
-        padding: 25px 10vw;
+        width: 40vw;
+        padding: 25px 5vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -96,7 +94,7 @@
 }
 .about_zone_details_texte{
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
 }

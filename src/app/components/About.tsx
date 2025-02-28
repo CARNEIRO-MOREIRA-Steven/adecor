@@ -5,7 +5,7 @@ import InterventionZone from './InterventionZone'
 const About = () => {
   return (
     <section className='container_about'>
-        <h2 className='about_title'>Bienvenue chez <span>A’Decor</span></h2>
+        <h2 className='about_title'>Bienvenue chez <span>A’DECOR</span></h2>
         <aside className='border_title_about'></aside>
         <section className='about_description_entreprise'>
         <section className='about_description_entreprise_content'>

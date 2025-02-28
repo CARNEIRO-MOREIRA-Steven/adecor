@@ -4,10 +4,11 @@
     display: flex;
     flex-direction: row; 
     background-color: #C99C64;
+    justify-content: space-between;
 }
 .contact_info{
-    width: 50vw;
-    height: 600px;
+    width: 45vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +16,7 @@
     gap: 15px;
     background-color: #ffffff;
     margin: 25px;
+    padding-top: 25px;
     border-radius: 25px;
 }
 .contact_info p {
@@ -40,8 +42,9 @@
 .contact_info .about_zone_details{
     display: flex;
     align-items: center;
-    width: 80%;
     padding: 0 20px;
+    position: relative;
+
 }
 .contact_info .about_description_title{
     color: #000000;
@@ -52,9 +55,6 @@
     font-size: 20px;
     font-weight: 500;
     color: #000000;
-}
-.contact_info .about_zone_details{
-    position: relative;
 }
 .contact_info .maps_zone{
     position: absolute;
@@ -72,11 +72,13 @@
 .container_form{
     background-color: #ffffff;
     border-radius: 25px 0 0 25px;
-    width: 50vw;
+    width: 45vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: auto;
     gap: 15px;
     padding: 25px 0;
 }
@@ -121,6 +123,10 @@
     font-weight: 600;
     background-color: #C99C64;
 }
+.contact_info .maps_zone{
+    left: 60%;
+    bottom : 0 
+}
 
 @media screen and (min-width: 1400px) and (max-width: 1749px) {
     .contact_info {
@@ -133,6 +139,10 @@
         margin: 25px 7.5vw;
         width: 35vw;
     }
+    .about_description_zone{
+        width: 30vw !important;
+        padding: 25px 0vw !important;
+    }
 }
 @media screen and (min-width: 1400px){
     .form_group_mail{
@@ -144,10 +154,18 @@
     .form_group_mail .email, .form_group_mail .prestation{
         width: 25vw;
     }
+    .container_form{
+        width: 50vw !important;
+    }
+}
+@media screen and  (max-width: 1232px) {
+    .form_group{
+        align-items: flex-end;
+    }
 }
 @media screen and (min-width: 1023px) and (max-width: 1091px) {
     .form_group{
-        gap: 2.5vw;
+        gap: 1vw;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -231,7 +249,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .contact_info{
         width: 87vw;
-        padding: 1vw;
+        padding: 5vw 0 0 0;
     }
     .about_zone_details_texte ul{
         padding: 0;
