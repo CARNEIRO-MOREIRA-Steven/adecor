@@ -42,7 +42,7 @@ const index = () => {
       desciption='Apportez une nouvelle vie à vos espaces grâce à un aménagement et une isolation efficaces.' />
       <AboutPrestation
         image='./isolation1.webp'
-        title='A’Decor spécialiste en Isolation thermique et acoustique basé à Noyon, dans l’Oise'
+        title='A’DECOR spécialiste en Isolation thermique et acoustique basé à Noyon, dans l’Oise'
         description="<p>L'isolation thermique et acoustique est un choix important pour garantir la confort et la durabilité de votre maison.</p>
         <p>Notre entreprise est spécialisée dans l'isolation thermique et acoustique, offrant des solutions adaptées aux besoins de chacun.</p>
         <p>Nous travaillons avec des materiaux de haute performance et ecologiques, garantissant ainsi une isolation durable et efficace.</p>

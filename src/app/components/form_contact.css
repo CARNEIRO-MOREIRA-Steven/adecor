@@ -70,6 +70,8 @@
     color: #000000;
 }
 .container_form{
+    background-color: #ffffff;
+    border-radius: 25px 0 0 25px;
     width: 50vw;
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +119,7 @@
     border-radius: 50px;
     font-size: 20px;
     font-weight: 600;
+    background-color: #C99C64;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1749px) {
@@ -140,6 +143,11 @@
     }
     .form_group_mail .email, .form_group_mail .prestation{
         width: 25vw;
+    }
+}
+@media screen and (min-width: 1023px) and (max-width: 1091px) {
+    .form_group{
+        gap: 2.5vw;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -166,6 +174,9 @@
     }
 }
 @media screen and (max-width: 1023px) {
+    .contact_page .border_title{
+        height: 3px;
+    }
     .container_contact{
         flex-direction: column-reverse;
         align-items: center;
@@ -195,6 +206,26 @@
     .contact_info .about_description_title_zone{
         font-size: 18px;
     }
+    .container_form {
+        background-color: #C99C64;
+    }
+    .container_form .form_button{
+        background-color: #ffffff;
+    }
+    .contact_page .about_description_zone{
+        border-radius: 25px;
+        background-color: #ffffff;
+        width: 80%;
+        padding: 0 15px;
+    }
+    .contact_page .about_zone_details_texte{
+        width: 100%;
+    }
+    .contact_info .about_zone_details{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -202,11 +233,14 @@
         width: 87vw;
         padding: 1vw;
     }
-    .contact_info .about_zone_details{
-        flex-direction: column;
+    .about_zone_details_texte ul{
+        padding: 0;
     }
+
     .contact_info .maps_zone{
-        position: initial;
+        width: 100px;
+        height: 100px;
+        bottom: 70px;
     }
     .container_form{
         width: 90vw;
@@ -225,5 +259,8 @@
     .container_form .form_button{
         width: 90%;
         font-size: 18px;
+    }
+    .contact_page     .about_zone_details_texte ul{
+        padding-inline-start: 0px;
     }
 }

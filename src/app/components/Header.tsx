@@ -52,9 +52,9 @@ const Header = () => {
         <img className="logo-header" src="./logo.webp" alt="Logo"/>
         <aside className='nav-links'>
         <Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link>
-        <Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link>
+        <Link href='/peinture-interieure' className={activePath === '/peinture-interieure' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link>
         <Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Aménagement et Isolation</Link>
-        <Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieure</Link>
+        <Link href='/peinture-exterieure' className={activePath === '/peinture-exterieure' ? 'active' : ''}onClick={closeMenu}>Peinture extérieure</Link>
         <Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link>   
         <Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link>
         </aside>
@@ -90,9 +90,9 @@ const Header = () => {
           <div id="menu" className={isMenuOpen ? 'open' : ''}>
           <ul className='list_menu'>
             <li><Link href='/' className={activePath === '/' ? 'active' : ''}onClick={closeMenu}>Accueil</Link></li>
-            <li><Link href='/peinture-interieur' className={activePath === '/peinture-interieur' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link></li>
+            <li><Link href='/peinture-interieure' className={activePath === '/peinture-interieure' ? 'active' : ''}onClick={closeMenu}>Peinture intérieure</Link></li>
             <li><Link href='/isolation' className={activePath === '/isolation' ? 'active' : ''}onClick={closeMenu}>Aménagement et Isolation</Link></li>           
-            <li><Link href='/peinture-exterieur' className={activePath === '/peinture-exterieur' ? 'active' : ''}onClick={closeMenu}>Peinture extérieure</Link></li>           
+            <li><Link href='/peinture-exterieure' className={activePath === '/peinture-exterieure' ? 'active' : ''}onClick={closeMenu}>Peinture extérieure</Link></li>           
             <li><Link href='/revetement-de-sols' className={activePath === '/revetement-de-sols' ? 'active' : ''}onClick={closeMenu}>Revetement de sols</Link></li>        
             <li><Link href='/contact' className={activePath === '/contact' ? 'active' : ''}onClick={closeMenu}>Contact</Link></li>
           </ul>

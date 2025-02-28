@@ -109,8 +109,8 @@ header {
     display: flex;
     position: absolute;
     flex-direction: row;
-    align-items: center;
-    top: 15.5vh;
+    align-items: flex-start;
+    top: 15vh;
     right: 25px;
     gap: 25px;
   }
@@ -179,7 +179,7 @@ header {
     top: 13vh;
     left: 0;
     width: 100vw; 
-    height: 40vh; 
+    height: auto; 
     background-color: #ffffff; 
     display: flex;
     padding: 0;
@@ -262,15 +262,12 @@ header {
     .desktop-nav {
       display: none;
     }
-
     .contact_icon_facebook{
       width: 40px;
     }
-
     #menu li a {
       font-size: 22px;
     }
-  
     .mobile-menu {
       display: flex;
       align-items: center;
@@ -300,7 +297,8 @@ header {
       left: 30px;
     }
     .contact_container_header{
-      top: 35vh;
+      align-items: center;
+      top: 87%;
       width: 20%;
       left: 40%;
     }

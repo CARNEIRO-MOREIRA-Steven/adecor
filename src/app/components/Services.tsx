@@ -27,8 +27,8 @@ const Services = () => {
         <section className='services_cards'>
             <aside className='card card_1'>
                 <div className='card_content'>
-                <h4 className='card_title'>Peinture intérieur</h4>
-                <a className='link_card' href='./peinture-interieur'>
+                <h4 className='card_title'>Peinture intérieure</h4>
+                <a className='link_card' href='./peinture-interieure'>
                 {isMobile ? 'Peinture intérieur' : 'Rénover mes peintures intérieures'}</a>
                 </div>
             </aside>
@@ -41,8 +41,8 @@ const Services = () => {
             </aside>
             <aside className='card card_3'>
                 <div className='card_content'>
-                <h4 className='card_title'>Peinture extérieur</h4>
-                <a className='link_card' href='./peinture-exterieur'>
+                <h4 className='card_title'>Peinture extérieure</h4>
+                <a className='link_card' href='./peinture-exterieure'>
                 {isMobile ? 'Peinture extérieur' : 'Rénover mes peintures extérieures'}</a>
                 </div>
             </aside>
