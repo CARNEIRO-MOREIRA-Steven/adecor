@@ -75,7 +75,7 @@ const FormContact = () => {
                 <p className='contact_info_location'><img className="contact_icon_location" alt="icon localisation" src="location-dot-solid.svg"></img>Rue de Montdidier, 60400 Larbroye</p>
                 <a target='_blank' className='contact_info_facebook' href="https://www.facebook.com/profile.php?id=100079740254760"> 
                 <img className="contact_icon_facebook" alt="icon_facebook" src="facebook-brands-solid.svg"></img>
-                A'DERCOR Noyon
+                A'DECOR Noyon
                 </a>
                 <InterventionZone />
                      </aside>

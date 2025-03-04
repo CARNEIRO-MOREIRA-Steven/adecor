@@ -29,7 +29,7 @@ const Services = () => {
                 <div className='card_content'>
                 <h4 className='card_title'>Peinture intérieure</h4>
                 <a className='link_card' href='./peinture-interieure'>
-                {isMobile ? 'Peinture intérieur' : 'Rénover mes peintures intérieures'}</a>
+                {isMobile ? 'Peinture intérieure' : 'Rénover mes peintures intérieures'}</a>
                 </div>
             </aside>
             <aside className='card card_2'>
@@ -43,7 +43,7 @@ const Services = () => {
                 <div className='card_content'>
                 <h4 className='card_title'>Peinture extérieure</h4>
                 <a className='link_card' href='./peinture-exterieure'>
-                {isMobile ? 'Peinture extérieur' : 'Rénover mes peintures extérieures'}</a>
+                {isMobile ? 'Peinture extérieure' : 'Rénover mes peintures extérieures'}</a>
                 </div>
             </aside>
             <aside className='card card_4'>
