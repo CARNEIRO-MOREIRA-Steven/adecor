@@ -10,7 +10,10 @@ export const metadata = {
   title: "A'Decor | Aménagement intérieur et isolation à Noyon",
   description:
     "Optimisez votre confort avec A'Decor : travaux d’aménagement intérieur et isolation thermique à Noyon. Solutions sur mesure pour une maison agréable et économe.",
-}
+    alternates: {
+      canonical: "https://adecor-renovation.fr/isolation",
+    },
+  }
 
 const index = () => {
   const prestations = [

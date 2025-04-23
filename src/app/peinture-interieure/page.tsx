@@ -11,7 +11,10 @@ export const metadata = {
   title: "A'Decor | Peinture intérieure à Noyon",
   description:
     "A'Decor, artisan peintre à Noyon, vous propose des prestations de peinture intérieure sur mesure. Embellissez vos espaces avec des finitions de qualité.",
-}
+    alternates: {
+      canonical: "https://adecor-renovation.fr/peinture-interieure",
+    },
+  }
 const index = () => {
 
   return (

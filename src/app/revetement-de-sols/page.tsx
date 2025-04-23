@@ -10,7 +10,10 @@ export const metadata = {
   title: "A'Decor | Revêtement de sol à Noyon - Parquet, vinyle, carrelage",
   description:
     "Confiez la pose de vos revêtements de sol à A'Decor, artisan basé à Noyon. Parquet, vinyle, carrelage ou moquette, bénéficiez d'une finition professionnelle et durable.",
-}
+    alternates: {
+      canonical: "https://adecor-renovation.fr/revetement-de-sols",
+    },
+  }
 
 const index = () => {
   const prestations = [

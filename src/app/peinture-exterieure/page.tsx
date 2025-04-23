@@ -10,7 +10,10 @@ export const metadata = {
   title: "A'Decor | Peinture extérieure à Noyon - Façades et boiseries",
   description:
     "Rafraîchissez l'extérieur de votre maison avec A'Decor à Noyon. Peinture de façade, boiseries, volets : des prestations durables face aux intempéries.",
-}
+    alternates: {
+      canonical: "https://adecor-renovation.fr/peinture-exterieure",
+    },
+  }
 const index = () => {
 
   return (

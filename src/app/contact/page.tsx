@@ -8,7 +8,10 @@ export const metadata = {
   title: "A'Decor | Contactez votre artisan peintre à Noyon",
   description:
     "Une question, un projet ? Contactez A'Decor pour vos travaux de peinture, aménagement et rénovation à Noyon. Réponse rapide et devis gratuit.",
-}
+    alternates: {
+      canonical: "https://adecor-renovation.fr/contact",
+    },
+  }
 
 const index = () => {
   return (
