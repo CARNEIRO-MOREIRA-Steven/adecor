@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/
+Allow: /
+
+Sitemap: https://adecor-renovation.fr/sitemap.xml

@@ -6,6 +6,12 @@ import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationDetailsCarousel from '../components/Prestations/PrestationDetailsCarousel'
 import PrestationRealisations from '../components/Prestations/PrestationRealisations'
 
+export const metadata = {
+  title: "A'Decor | Aménagement intérieur et isolation à Noyon",
+  description:
+    "Optimisez votre confort avec A'Decor : travaux d’aménagement intérieur et isolation thermique à Noyon. Solutions sur mesure pour une maison agréable et économe.",
+}
+
 const index = () => {
   const prestations = [
     {

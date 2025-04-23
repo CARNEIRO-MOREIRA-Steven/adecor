@@ -80,7 +80,6 @@ const FormContact = () => {
                 <InterventionZone />
                      </aside>
             <form className='container_form' onSubmit={handleSubmit}>
-                <h3 className='form_title'>Contactez-nous</h3>
                 <div className='form_group'>
                 <div className='name'>
                     <label htmlFor='name'>Nom prénom</label>

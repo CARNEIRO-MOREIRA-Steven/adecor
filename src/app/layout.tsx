@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "A'Decor",
-  description: "Artisant peintre Noyon",
+  title: "A'Decor | Peintre à Noyon - Travaux de rénovation",
+  description: "A'Decor, artisan peintre à Noyon. Travaux de peinture intérieure, extérieure et rénovation. Devis gratuit et rapide.",
 };
 
 export default function RootLayout({

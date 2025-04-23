@@ -7,6 +7,11 @@ import PrestationRealisations from '../components/Prestations/PrestationRealisat
 import PrestationDetails from '../components/Prestations/PrestationDetails'
 // import PrestationDetailsCarousel from '../components/Prestations/PrestationDetailsCarousel'
 
+export const metadata = {
+  title: "A'Decor | Peinture intérieure à Noyon",
+  description:
+    "A'Decor, artisan peintre à Noyon, vous propose des prestations de peinture intérieure sur mesure. Embellissez vos espaces avec des finitions de qualité.",
+}
 const index = () => {
 
   return (

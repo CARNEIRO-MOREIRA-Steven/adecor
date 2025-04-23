@@ -4,6 +4,11 @@ import Footer from '../components/Footer'
 import BannerPrestation from '../components/Prestations/BannerPrestation'
 import FormContact from '../components/FormContact'
 
+export const metadata = {
+  title: "A'Decor | Contactez votre artisan peintre à Noyon",
+  description:
+    "Une question, un projet ? Contactez A'Decor pour vos travaux de peinture, aménagement et rénovation à Noyon. Réponse rapide et devis gratuit.",
+}
 
 const index = () => {
   return (
@@ -11,7 +16,7 @@ const index = () => {
       <Header  />
       <BannerPrestation 
       image='./chambre1.png'
-      title=''
+      title='Contactez-nous'
       className='contact'
       desciption='Que vous ayez une idée précise en tête ou besoin de conseils, nous serions ravis de discuter de vos besoins.' />
       <aside className='border_title'></aside>

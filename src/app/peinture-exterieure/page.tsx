@@ -6,6 +6,11 @@ import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationRealisations from '../components/Prestations/PrestationRealisations'
 import PrestationDetails from '../components/Prestations/PrestationDetails'
 
+export const metadata = {
+  title: "A'Decor | Peinture extérieure à Noyon - Façades et boiseries",
+  description:
+    "Rafraîchissez l'extérieur de votre maison avec A'Decor à Noyon. Peinture de façade, boiseries, volets : des prestations durables face aux intempéries.",
+}
 const index = () => {
 
   return (

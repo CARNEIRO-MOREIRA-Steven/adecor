@@ -13,9 +13,10 @@
  display: none;
 }
 .container_banner_prestation.contact, .container_intro_banner_prestation.contact{
-    height: 15vh;
+    height: 30vh;
 }
-.container_intro_banner_prestation.contact .banner_cta_prestation, .container_intro_banner_prestation.contact .banner_title_prestation{
+
+.contact_button_prestation{
     display: none;
 }
 
@@ -146,8 +147,6 @@
     }
   }
 
-
-
   /* Special */
 .container_banner_prestation.special{
     position: relative;
@@ -242,8 +241,11 @@
         padding: 0;
     }
     .container_banner_prestation.contact, .container_intro_banner_prestation.contact, .intro_banner_prestation {
-        height: 15vh;
+        height: 25vh;
         justify-content: center;
+    }
+    .contact_button_prestation{
+        display: none;
     }
     .container_banner_prestation.contact .banner_subtitle_prestation{
         font-size: 22px;
@@ -255,6 +257,7 @@
         height: 55vh;
     }
     .contact_button_prestation{
+        display: none;
         height: 40px;
         width: 50%;
         font-size: 18px;
@@ -308,8 +311,11 @@
     .container_banner_prestation.special {
         z-index: 0;
     }
+    .banner_title_prestation{
+        font-size: 25px;
+    }
     .container_banner_prestation.contact, .container_intro_banner_prestation.contact, .intro_banner_prestation {
-        height: 20vh;
+        height: 30vh;
         justify-content: center;
     }
     .container_banner_prestation.contact .banner_subtitle_prestation{

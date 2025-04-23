@@ -6,6 +6,12 @@ import AboutPrestation from '../components/Prestations/AboutPrestation'
 import PrestationRealisations from '../components/Prestations/PrestationRealisations'
 import PrestationDetails from '../components/Prestations/PrestationDetails'
 
+export const metadata = {
+  title: "A'Decor | Revêtement de sol à Noyon - Parquet, vinyle, carrelage",
+  description:
+    "Confiez la pose de vos revêtements de sol à A'Decor, artisan basé à Noyon. Parquet, vinyle, carrelage ou moquette, bénéficiez d'une finition professionnelle et durable.",
+}
+
 const index = () => {
   const prestations = [
     {
