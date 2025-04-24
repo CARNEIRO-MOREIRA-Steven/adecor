@@ -20,6 +20,10 @@
     display: none;
 }
 
+.container_banner_prestation.special .banner_title_prestation{
+    text-align: end;
+}
+
 .container_intro_banner_prestation.inverted{
     flex-direction: row-reverse;
 }

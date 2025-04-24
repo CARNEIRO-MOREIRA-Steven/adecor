@@ -55,7 +55,7 @@ const index = () => {
     <section>
       <Header />
       <BannerPrestation 
-      image='./peinture2.png'
+      image='./peinture_interieur.webp'
       title='Revetement de sols'
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des revetement de sol de qualité professionnelle.' />

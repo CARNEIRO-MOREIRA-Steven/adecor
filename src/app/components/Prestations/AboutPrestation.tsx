@@ -12,7 +12,7 @@ const AboutPrestation : React.FC<PrestationsProps> = ( {image,className, title ,
   return (
     <section className={`about_prestation_container ${className || ""}`}>
         <section className='about_prestation_description'>
-            <h4>{title}</h4>
+            <h3>{title}</h3>
             <aside dangerouslySetInnerHTML={ {__html :description}} />
         </section>
         <img className='about_prestation_image' src={image} alt={title}></img>

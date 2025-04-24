@@ -8,6 +8,13 @@ import Realisations from './components/Realisations'
 import About from './components/About'
 import Footer from './components/Footer'
 
+export const metadata = {
+  title: "A'Decor | Peintre à Noyon - Travaux de rénovation",
+  description: "A'Decor, artisan peintre à Noyon. Travaux de peinture intérieure, extérieure et rénovation. Devis gratuit et rapide.",
+  alternates: {
+    canonical: "https://adecor-renovation.fr/revetement-de-sols",
+  },
+}
 const page = () => {
   return (
     <section>

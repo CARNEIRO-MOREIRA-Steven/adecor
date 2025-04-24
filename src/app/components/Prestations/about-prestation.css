@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center
 }
-.about_prestation_description h4{
+.about_prestation_description h3{
     font-size: 30px;
     font-weight: 700;
     color: #000000;
@@ -24,9 +24,6 @@
     font-weight: 600;
     color: #000000;
     margin:25px 5px;
-}
-.about_prestation_description h4, p{
-    color: #000000;
 }
 .about_prestation_description li{
     font-size: 18px;
@@ -85,7 +82,7 @@
         width: 90vw;
         padding: 0 5vw;
     }
-    .about_prestation_description h4{
+    .about_prestation_description h3{
         font-size: 20px;
     }
     .about_prestation_description p{
