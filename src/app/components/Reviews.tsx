@@ -1,12 +1,26 @@
 import React from 'react'
 import './reviews.css'
+import { Review } from '../types/Reviews';
+import { reviewsData } from '../data/reviews';
 const Reviews = () => {
-<script src="https://static.elfsight.com/platform/platform.js" defer></script>
-  return (
-    <div className="elfsight-app-71c20a87-ab55-4eeb-b1df-aaa84489fa45" data-elfsight-app-lazy>
-      <iframe title='avis client' loading="lazy" id='reviews' src='https://71c20a87ab554eebb1dfaaa84489fa45.elf.site'></iframe>
-    </div>
-  )
-}
+  return(
+          <aside
+            className='experiences_review'
+          >
+            <h3 className='experiences_review_title'>Ils me recommandent</h3>
+            <div className="carousel">
+              {reviewsData.map((review: Review) => (
+                <article key={review.id}>
+                  <h4>{review.name}</h4>
+                  <p className='review_stars'>
+                    {'⭐'.repeat(review.star)}
+                  </p>
+                  <p>{review.review}</p>
+
+                </article>
+              ))}
+            </div>
+          </aside>
+  )}
 
 export default Reviews
