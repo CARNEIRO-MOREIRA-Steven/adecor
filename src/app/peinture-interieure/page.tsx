@@ -26,8 +26,8 @@ const index = () => {
       className=''
       desciption='Apportez une nouvelle vie à vos espaces grâce à des peintures intérieures de qualité professionnelle.' />
         <PrestationRealisations 
-        image='./peinture_chambre.webp' 
-        image2='./peinture_chambre_apres.webp' 
+        image='./peinture_escalier_avant.jpg' 
+        image2='./peinture_escalier_après.jpg' 
         image3='./interieur_poutre_debut.webp'
         image4='./interieur_poutre_fin.webp'
         />

@@ -59,8 +59,8 @@ const index = () => {
             " />
         <PrestationDetailsCarousel prestations={prestations} />
         <PrestationRealisations 
-        image='./avant_isolation.webp' 
-        image2='./interieur3.webp'
+        image='./aménagement_avant.jpg'
+        image2='./amenagement_apres.jpg'
         image3='./amenagement_chambre.webp'
         image4='amenagement_apres.webp'
         />
